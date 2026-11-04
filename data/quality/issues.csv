@@ -1,0 +1,10 @@
+issue_id,status,object,description,handling
+Q001,open,full_daily_history,Public bulk API unavailable in current environment; container DNS failure; web query endpoints inaccessible,No 3-year OHLCV completeness claimed; fetch script provided; canonical dataset absent
+Q002,open,price_adjustment_volume,Vendor web display adjustment unknown; volume rounded to million,38 rows isolated in staging; never used for precise volume or return analysis
+Q003,resolved_for_transcribed_table,TQ2026Q3,Text parser returned unrelated issuer/report while original PDF screenshots showed Tianqi 2026Q3,Verify cover and printed page2 visually; cross-check Sina issuer reprint; no parser automation
+Q004,quarantined,yahoo_tianqi_history,Observed 2026-10-13 open40.64 greater than high38.79; conflicting close,Reject source row and do not promote Yahoo history; https://hk.finance.yahoo.com/quote/002466.SZ/history/
+Q005,open,financial_point_in_time,2023-2025 quarter figures sourced from later annual tables; original quarterly vintages not collected,Retrospective-only until original quarterly releases restored; source publication not earliest release
+Q006,open,raw_pdf_archive,12 PDFs inspected through web; PDF bytes could not be downloaded to runtime,URL/page manifest stored; no PDF byte hashes invented
+Q007,open,GF2026H1_date,CNInfo HK wrapper date2026-08-28; inner PRC report cover date2026-08-29,Retain both; exact release time not inferred; strict event timing pending
+Q008,open,industry_history,SC6 lithium salt inventory and realized production history not yet rebuilt,Do not infer lithium cycle solely from equity charts
+Q009,open,financial_scope,Only core income/OCF quarter metrics and 2026 total assets/equity; not complete BS/CF or asset-level model,No FCF ROIC EV or normalized-earnings valuation until missing fields verified

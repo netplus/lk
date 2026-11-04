@@ -1,0 +1,7 @@
+symbol,period_end,revenue_cny,net_income_parent_cny,net_income_parent_excl_nonrec_cny,ocf_cny,source_ids,basis
+002460.SZ,2023-12-31,32971680169.96,4946809503.79,2675926152.58,146480693.21,GF2023,direct_calculation_sum_of_4_disclosed_quarters
+002460.SZ,2024-12-31,18906402940.11,-2074013392.07,-887309059.28,5161271999.89,GF2024,direct_calculation_sum_of_4_disclosed_quarters
+002460.SZ,2025-12-31,23081732746.32,1612980993.34,-385436349.45,2944844627.19,GF2025,direct_calculation_sum_of_4_disclosed_quarters
+002466.SZ,2023-12-31,40503462071.46,7297314973.99,7176527920.24,22688073725.98,TQ2023,direct_calculation_sum_of_4_disclosed_quarters
+002466.SZ,2024-12-31,13063477016.39,-7904580295.37,-7922753511.78,5554189376.65,TQ2024,direct_calculation_sum_of_4_disclosed_quarters
+002466.SZ,2025-12-31,10346364563.27,462625452.36,359156210.50,2960503399.35,TQ2025,direct_calculation_sum_of_4_disclosed_quarters

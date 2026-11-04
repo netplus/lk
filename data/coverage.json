@@ -1,0 +1,34 @@
+{
+  "as_of": "2026-11-04",
+  "market_target_start": "2023-11-04",
+  "market_target_end": "2026-11-03",
+  "symbols": [
+    "002466.SZ",
+    "002460.SZ"
+  ],
+  "financial_quarters_per_company": 15,
+  "financial_quarter_rows": 30,
+  "financial_quarter_metric_values": 120,
+  "financial_range": [
+    "2023-03-31",
+    "2026-09-30"
+  ],
+  "raw_cumulative_2026_rows": 6,
+  "balance_2026_rows": 6,
+  "annual_derived_rows": 6,
+  "original_reports_visually_checked": 12,
+  "original_pdf_files_archived": 0,
+  "market_staging_rows": 38,
+  "market_staging_range": [
+    "2026-10-08",
+    "2026-11-03"
+  ],
+  "verified_full_daily_rows": 0,
+  "backtest_gate": "BLOCKED",
+  "valuation_gate": "BLOCKED",
+  "financial_use": "retrospective_core_metrics_only",
+  "point_in_time_complete": false,
+  "industry_history_complete": false,
+  "raw_report_checksum_status": "not_available",
+  "personal_accounts_in_repository": false
+}

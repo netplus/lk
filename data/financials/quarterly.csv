@@ -1,0 +1,31 @@
+symbol,period_end,revenue_cny,net_income_parent_cny,net_income_parent_excl_nonrec_cny,ocf_cny,source_ids,source_published_date,basis,formula,vintage,first_release_verified
+002460.SZ,2023-03-31,9438229716.32,2396600665.19,2138674627.96,-3169082963.04,GF2023,2024-03-29,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2023-06-30,8707006520.17,3453585909.32,1974537910.88,477925977.37,GF2023,2024-03-29,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2023-09-30,7536725354.55,159660470.78,239136661.31,1322056579.53,GF2023,2024-03-29,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2023-12-31,7289718578.92,-1063037541.50,-1676423047.57,1515581099.35,GF2023,2024-03-29,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2024-03-31,5057894510.44,-438901866.58,-254188567.74,118855695.01,GF2024,2025-03-29,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2024-06-30,4530919572.43,-321475011.61,93797465.38,3823643415.26,GF2024,2025-03-29,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2024-09-30,4336378675.45,119987234.13,-197186284.90,163417221.76,GF2024,2025-03-29,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2024-12-31,4981210181.79,-1433623748.01,-529731672.02,1055355667.86,GF2024,2025-03-29,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2025-03-31,3771800382.54,-355829529.74,-242193055.34,-1571355929.64,GF2025,2026-03-31,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2025-06-30,4604296086.54,-175409736.66,-670652380.77,1871700539.81,GF2025,2026-03-31,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2025-09-30,6248702034.26,556759283.72,-29134854.30,-729443356.17,GF2025,2026-03-31,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2025-12-31,8456934242.98,1587460976.02,556543940.96,3373943373.19,GF2025,2026-03-31,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002460.SZ,2026-03-31,9196158318.22,1837274971.24,1418844330.93,786537076.09,GF2026Q1,2026-04-30,direct_Q1,direct,report_vintage,false
+002460.SZ,2026-06-30,13900787106.83,2419889870.86,2429381389.46,541708930.81,GF2026H1 | GF2026Q1,2026-08-28,cumulative_difference,GF2026H1 - GF2026Q1,report_vintage,false
+002460.SZ,2026-09-30,13061786733.24,755094599.37,787643773.92,966457468.26,GF2026Q3 | GF2026H1,2026-10-16,cumulative_difference,GF2026Q3 - GF2026H1,report_vintage,false
+002466.SZ,2023-03-31,11448674607.22,4875226485.40,4836318922.00,4936111237.93,TQ2023,2024-03-28,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2023-06-30,13374559723.29,1577236011.70,1573538172.28,7165295682.93,TQ2023,2024-03-28,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2023-09-30,8575931902.40,1646051259.20,1572484555.67,7933809902.59,TQ2023,2024-03-28,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2023-12-31,7104295838.55,-801198782.31,-805813729.71,2652856902.53,TQ2023,2024-03-28,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2024-03-31,2584634945.21,-3896784834.74,-3916733916.55,3144368451.35,TQ2024,2025-03-27,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2024-06-30,3833943644.75,-1308984259.44,-1304125951.15,-908405041.04,TQ2024,2025-03-27,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2024-09-30,3646159930.05,-495644270.41,-516039799.65,1956407476.45,TQ2024,2025-03-27,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2024-12-31,2998738496.38,-2203166930.78,-2185853844.43,1361818489.89,TQ2024,2025-03-27,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2025-03-31,2584202662.39,104274617.91,44425496.09,951681250.98,TQ2025,2026-03-28,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2025-06-30,2248478074.59,-19864021.91,-43105491.86,868782898.27,TQ2025,2026-03-28,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2025-09-30,2564587551.93,95485546.60,69955753.16,372596861.20,TQ2025,2026-03-28,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2025-12-31,2949096274.36,282729309.76,287880453.11,767442388.90,TQ2025,2026-03-28,annual_disclosed_quarter_table,direct,annual_retrospective,false
+002466.SZ,2026-03-31,5128047632.11,1876028010.28,1815751653.83,259113723.85,TQ2026Q1,2026-04-28,direct_Q1,direct,report_vintage,false
+002466.SZ,2026-06-30,7114195571.88,2365991990.49,2383906549.76,1952953435.05,TQ2026H1 | TQ2026Q1,2026-08-28,cumulative_difference,TQ2026H1 - TQ2026Q1,report_vintage,false
+002466.SZ,2026-09-30,6037109114.11,1359690136.95,1333682543.28,3432973624.78,TQ2026Q3 | TQ2026H1,2026-10-26,cumulative_difference,TQ2026Q3 - TQ2026H1,report_vintage,false
