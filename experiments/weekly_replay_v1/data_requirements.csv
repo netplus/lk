@@ -1,0 +1,10 @@
+id,dataset,scope,status,restriction
+D01,unadjusted_daily_OHLCV,both equities 2023-01-03 through 2024-11-05,MISSING,"No verified daily rows; 38 staging rows belong to 2026, outside experiment"
+D02,corporate_actions_and_limits,record/ex/pay dates; dividend/split; suspension; exact limits,MISSING,Do not infer from current qfq; unsupported actions block
+D03,point_in_time_filings,original filings and previews available before each weekly cutoff,INCOMPLETE,Later annual retrospective values cannot be used early
+D04,industry_history,same-vintage SC6 lithium salt inventory supply demand,MISSING,No backfilled cycle labels from future stock prices
+D05,weekly_company_and_valuation_evidence,audited states and assumptions for both companies,MISSING,"Missing means blocked, never cash or default hold"
+D06,CSI300_benchmark,matching start reference and daily series,MISSING,total and price return basis must be explicit
+D07,lithium_sector_benchmark,850543 historical series methodology constituents and return basis,MISSING,"Identity checked, historical data not acquired"
+D08,execution_calendar,2023-11-06 through 2024-11-05,VERIFIED_CALENDAR_ONLY,242 sessions from exchange holiday notices
+D09,production_integration,data import evidence freeze benchmark alignment end-to-end validation,PENDING,Pure function tests are not historical simulation

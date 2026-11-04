@@ -1,0 +1,6 @@
+series,status,profit_cny,return_pct,max_drawdown_pct,excess_market_pp,excess_sector_pp
+weekly_model_v1,NOT_RUN,,,,,
+CSI300,NOT_RUN,,,,,
+SW_lithium_850543,NOT_RUN,,,,,
+two_leaders_buy_hold,NOT_RUN,,,,,
+two_leaders_cash20_buy_hold,NOT_RUN,,,,,

@@ -1,0 +1,15 @@
+{
+  "status": "BLOCKED",
+  "missing": [
+    "verified_daily_ohlcv_missing",
+    "point_in_time_filings_incomplete",
+    "industry_history_incomplete",
+    "market_manifest.json_missing",
+    "evidence_packets.json_missing",
+    "actions_manifest.json_missing",
+    "benchmark_manifest.json_missing",
+    "production_integration_not_yet_validated"
+  ],
+  "performance": null,
+  "message": "No historical performance computed. BLOCKED is not a cash strategy."
+}

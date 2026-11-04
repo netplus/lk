@@ -1,0 +1,6 @@
+method,target,result
+container,public repository raw download,DNS unavailable; no bytes retrieved
+web,Eastmoney Tencent Yahoo bulk historical endpoints,access unsuccessful; no complete time series
+web,Sina Netease Sohu date-range historical pages,access unsuccessful; no complete time series
+remote_execution_connector,connection discovery twice,service unavailable; no command executed
+plugin_discovery,historical A-share data capability,no applicable connected data provider returned

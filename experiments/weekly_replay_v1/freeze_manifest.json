@@ -1,0 +1,12 @@
+{
+  "experiment_id": "LK-WEEKLY-REPLAY-V1",
+  "registered_on": "2026-11-04",
+  "note": "Hash of preregistered files; not proof of genuinely prospective research",
+  "files": {
+    "experiments/weekly_replay_v1/config.json": "def024057b9b49c63633d337088384ae7d9202beb1cdfd4a8b560c877df5ff11",
+    "experiments/weekly_replay_v1/PROTOCOL.md": "6de5cee3edc2ed27bfd152f2e1b5e54c6f2506da1bc536d000719b7f12b543f9",
+    "experiments/weekly_replay_v1/calendar.csv": "72d1f33a4625417b796ce961b299eeccb1cfc1e025a6f95c30df89d93021c263",
+    "experiments/weekly_replay_v1/weekly_plan.csv": "0a62f03e01c207e4e5ff1cb16efbfcbcc93d2ff40a8ed38ed2551e9d5863ec6a",
+    "scripts/weekly_replay.py": "d612c2f30f81726e87c4261762df9e49a58404e4626c7903f1b789a6ccc245b0"
+  }
+}

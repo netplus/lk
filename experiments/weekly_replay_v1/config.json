@@ -1,0 +1,53 @@
+{
+  "experiment_id": "LK-WEEKLY-REPLAY-V1",
+  "registered_on": "2026-11-04",
+  "classification": "retrospective_rule_based_reconstruction_not_real_out_of_sample",
+  "source_commit": "55b084308699a5c1dbaa9c21ce4ad6ba61aa210b",
+  "evaluation_start": "2023-11-06",
+  "evaluation_end": "2024-11-05",
+  "warmup_start": "2023-01-03",
+  "initial_cash_cny": 100000,
+  "symbols": [
+    "002466.SZ",
+    "002460.SZ"
+  ],
+  "frequency": "weekly",
+  "decision_cutoff": "Sunday 23:59 Asia/Shanghai",
+  "execution": "first open session within following Monday-Sunday; no stale order carry into a different review week",
+  "position_grid": [
+    0,
+    0.2,
+    0.4
+  ],
+  "max_single_weight": 0.4,
+  "max_total_target_weight": 0.8,
+  "cash_interest_rate": 0,
+  "commission_rate": 0.0003,
+  "minimum_commission_cny": 5,
+  "transfer_fee_rate": 1e-05,
+  "sell_stamp_rate": 0.0005,
+  "slippage_rate": 0.001,
+  "lot_size": 100,
+  "participation_limit": 0.005,
+  "dividend_tax_haircut": 0,
+  "cost_sensitivity": {
+    "slippage_rates": [
+      0,
+      0.001,
+      0.002
+    ],
+    "dividend_tax_haircuts": [
+      0,
+      0.2
+    ]
+  },
+  "end_policy": "mark_to_close_plus_receivable; no forced sale; separately estimate exit costs",
+  "benchmarks": [
+    "CSI300_total_return",
+    "SW_lithium_850543_price_supplement_not_total_return_alpha",
+    "two_leaders_50_50_buy_hold",
+    "two_leaders_40_40_cash20_buy_hold"
+  ],
+  "parameter_search": false,
+  "production_ready": false
+}
