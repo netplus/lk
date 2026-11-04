@@ -1,0 +1,108 @@
+{
+  "version": "filing-cache-v1",
+  "generated_on": "2026-11-04",
+  "base_commit_for_inherited_core": "6694f12aea33c2257f1a017fa142d05830d3adc9",
+  "input_sha256": {
+    "data/sources.csv": "8d47aa28a3b61ff6bc52a001909ad511a9ef18d00ecb4ed47a4acdd6538ce6b5",
+    "data/financials/quarterly.csv": "b80cf1fdd02b579d3ccfbcb3c501679b8f9d3e6ad5cc0b925e9411a265df402a",
+    "data/financials/cumulative_2026.csv": "0526e421f0fd564c6195379bb1945a9a47cde2888637d920e003990fd6c13142",
+    "data/financials/balance_2026.csv": "153e509bddc770d5049da1596a4e90ccf72bca91903bd953be9d06a6bf22bb10",
+    "data/financials/annual_reported.csv": "a05653697137f095a3e2eb714f24ea84654f2e2413d82afd02577a97df2420bc",
+    "data/financials/annual_segments.csv": "76544761b226e2ad8c90ff305e7261c39caa72b88e71c0ddf352d12193376f76",
+    "data/operations/annual_volumes.csv": "8df7a3ff6372860f7d16dc258a721f97f9daa80b8afd2f1f53ea395a13f0b326",
+    "data/filing_notes.json": "44e3422a030f881981c2edb135b8becd7dc07f270ee5a1bfbaa763cc16b45304"
+  },
+  "reports": [
+    {
+      "source_id": "GF2023",
+      "path": "research/filings/ganfeng/2023_FY.md",
+      "status": "selective_annual_tables_checked",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "GF2024",
+      "path": "research/filings/ganfeng/2024_FY.md",
+      "status": "selective_annual_tables_checked",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "GF2025",
+      "path": "research/filings/ganfeng/2025_FY.md",
+      "status": "selective_annual_tables_checked",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "TQ2023",
+      "path": "research/filings/tianqi/2023_FY.md",
+      "status": "selective_annual_tables_checked",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "TQ2024",
+      "path": "research/filings/tianqi/2024_FY.md",
+      "status": "selective_annual_tables_checked",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "TQ2025",
+      "path": "research/filings/tianqi/2025_FY.md",
+      "status": "selective_annual_tables_checked",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "GF2026Q1",
+      "path": "research/filings/ganfeng/2026_Q1.md",
+      "status": "inherited_verified_core_tables_only",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "GF2026H1",
+      "path": "research/filings/ganfeng/2026_H1.md",
+      "status": "inherited_verified_core_tables_only",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "GF2026Q3",
+      "path": "research/filings/ganfeng/2026_Q3.md",
+      "status": "inherited_verified_core_tables_only",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "TQ2026Q1",
+      "path": "research/filings/tianqi/2026_Q1.md",
+      "status": "inherited_verified_core_tables_only",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "TQ2026H1",
+      "path": "research/filings/tianqi/2026_H1.md",
+      "status": "inherited_verified_core_tables_only",
+      "pdf_sha256": null
+    },
+    {
+      "source_id": "TQ2026Q3",
+      "path": "research/filings/tianqi/2026_Q3.md",
+      "status": "inherited_verified_core_tables_only",
+      "pdf_sha256": null
+    }
+  ],
+  "output_sha256": {
+    "data/financials/annual_indicators.csv": "87888b4813e710c11f14cc2f10a13d770ae92782737e3fae3a7560b9ae1d7f5e",
+    "research/filings/ganfeng/2023_FY.md": "5db5479327fbfe3c1f0f48bcbc2cfac131164fbd535ff4c2daf5c21de5fe8928",
+    "research/filings/ganfeng/2024_FY.md": "ca2a09f645bbdae4457afe8a7a78878d85ccd511d3a4ea791eb35ef62611bbc9",
+    "research/filings/ganfeng/2025_FY.md": "74856bfb1dfebce1cf7103789a8d4dd9327d4b82021dbc953b9665e23db2d80b",
+    "research/filings/tianqi/2023_FY.md": "5b7821429ebd7f85c478417975d5b1cae0a6101b82d69bd360e2b3b6eb28e658",
+    "research/filings/tianqi/2024_FY.md": "1ddca8d3da276d55d06ebfe36c97ec406bffc07fa9d01b41d51c3de00255991c",
+    "research/filings/tianqi/2025_FY.md": "6a638e597df47c9ae98fa38f2488bff376f1db4b9f894df3795a4a7dbbada872",
+    "research/filings/ganfeng/2026_Q1.md": "1bdd504672bc80f9d707e460090c5b1a1e7fc4a105210c94777376e8a9b54203",
+    "research/filings/ganfeng/2026_H1.md": "28f7bb4bee3e4a66f6ee979c70b463fca066bef17600bbf570cd0eae4229de1c",
+    "research/filings/ganfeng/2026_Q3.md": "1c1e2b972e948a31e6850393b901927b2e7e26534eed45d7e21f5fff0b4b0b96",
+    "research/filings/tianqi/2026_Q1.md": "1b82cbd4b2095457f9c53e10ba872f3bc1d78b4d7c86182172df8ff04c0810cf",
+    "research/filings/tianqi/2026_H1.md": "db3daa957a18ae0162440fef5dff021a565d11a97236f3ce5f330c8ed0ca4a65",
+    "research/filings/tianqi/2026_Q3.md": "4b6a592d9d70ba80f6eeb389f04805e945a33b53d3e3bf75afc2bc815590402f",
+    "research/filings/INDEX.md": "73300e985218be283823dea0c7837e12c00b1a8fce3a9ce6dc2ca47a6a0a7441",
+    "research/financial_comparison.md": "37a6b2bc1aa39802965a1bab1679e2c0c5633fe8b72182da80bbd5cd2488da2d"
+  },
+  "full_reports_converted": false,
+  "raw_pdf_files_archived": 0
+}

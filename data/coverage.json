@@ -26,9 +26,16 @@
   "verified_full_daily_rows": 0,
   "backtest_gate": "BLOCKED",
   "valuation_gate": "BLOCKED",
-  "financial_use": "retrospective_core_metrics_only",
+  "financial_use": "retrospective_selected_financial_operating_tables; interim_core_only",
   "point_in_time_complete": false,
   "industry_history_complete": false,
   "raw_report_checksum_status": "not_available",
-  "personal_accounts_in_repository": false
+  "personal_accounts_in_repository": false,
+  "filing_cache_annual_md": 6,
+  "filing_cache_interim_md": 6,
+  "annual_reported_rows": 6,
+  "annual_segment_rows": 18,
+  "annual_volume_rows": 9,
+  "annual_indicator_rows": 6,
+  "full_filing_text_converted": false
 }

@@ -1,0 +1,10 @@
+symbol,period_end,product_code,product_name,unit,production,sales,inventory_end,source_id,printed_pages,scope,normalization_status,verified_on
+002466.SZ,2023-12-31,lithium_mine,锂矿采选冶炼行业,tonne_as_reported,1522296.86,844730.45,409355.06,TQ2023,38,issuer_reported_product_scope_not_equity,no_cross_company_conversion,2026-11-04
+002466.SZ,2023-12-31,lithium_chemicals,化学原料及化学制品制造业,tonne_as_reported,50713.67,56654.18,13186.26,TQ2023,38,issuer_reported_product_scope_not_equity,no_cross_company_conversion,2026-11-04
+002466.SZ,2024-12-31,lithium_mine,锂矿采选冶炼行业,tonne_as_reported,1410453.70,739137.80,299158.57,TQ2024,41,issuer_reported_product_scope_not_equity,no_cross_company_conversion,2026-11-04
+002466.SZ,2024-12-31,lithium_chemicals,化学原料及化学制品制造业,tonne_as_reported,70714.88,102803.71,7431.19,TQ2024,41,issuer_reported_product_scope_not_equity,no_cross_company_conversion,2026-11-04
+002466.SZ,2025-12-31,lithium_mine,锂矿采选冶炼行业,tonne_as_reported,1352686.87,811214.09,206258.60,TQ2025,42,issuer_reported_product_scope_not_equity,no_cross_company_conversion,2026-11-04
+002466.SZ,2025-12-31,lithium_chemicals,化学原料及化学制品制造业,tonne_as_reported,87935.98,86715.65,7427.83,TQ2025,42,issuer_reported_product_scope_not_equity,no_cross_company_conversion,2026-11-04
+002460.SZ,2023-12-31,lithium_products,基础化学材料,tonne_LCE,104253.83,101816.17,7239.99,GF2023,43,issuer_reported_product_scope_not_equity,no_cross_company_conversion,2026-11-04
+002460.SZ,2024-12-31,lithium_products,基础化学材料,tonne_LCE,130253.26,129728.35,7764.90,GF2024,53,issuer_reported_product_scope_not_equity,no_cross_company_conversion,2026-11-04
+002460.SZ,2025-12-31,lithium_products,基础化学材料,tonne_LCE,182419.19,184829.48,5354.61,GF2025,49,issuer_reported_product_scope_not_equity,no_cross_company_conversion,2026-11-04

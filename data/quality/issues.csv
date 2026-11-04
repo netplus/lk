@@ -7,4 +7,5 @@ Q005,open,financial_point_in_time,2023-2025 quarter figures sourced from later a
 Q006,open,raw_pdf_archive,12 PDFs inspected through web; PDF bytes could not be downloaded to runtime,URL/page manifest stored; no PDF byte hashes invented
 Q007,open,GF2026H1_date,CNInfo HK wrapper date2026-08-28; inner PRC report cover date2026-08-29,Retain both; exact release time not inferred; strict event timing pending
 Q008,open,industry_history,SC6 lithium salt inventory and realized production history not yet rebuilt,Do not infer lithium cycle solely from equity charts
-Q009,open,financial_scope,Only core income/OCF quarter metrics and 2026 total assets/equity; not complete BS/CF or asset-level model,No FCF ROIC EV or normalized-earnings valuation until missing fields verified
+Q009,partially_resolved,financial_scope,Annual core balance cashflow product and volumes added; complete BS debt restricted cash and asset equity bridges still missing,Selected annual table cache only; no FCFF FCFE ROIC EV or valuation readiness
+Q010,documented_limitation,filing_markdown_cache,Six annual selective extractions and six inherited interim core cards; not full-text conversion or comprehensive note review,Read MD and source CSV first; revisit original pages for corrections missing fields conflicts or material notes; run build_filing_md --check

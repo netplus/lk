@@ -2,7 +2,7 @@
 
 范围仅天齐002466、赣锋002460及解释其价值所必需的全球锂资源资产。主线：供需/成本→实际运营→权益利润/现金→估值/反证。不得扩展股票池或自动交易。
 
-每次先读README、data/coverage.json、data/quality/issues.csv和docs/methodology.md。旧聊天/自动报告只提供线索，不能作为原始证据。
+每次先读README、data/coverage.json、data/quality/issues.csv和docs/methodology.md。财报研究优先读research/filings/INDEX.md、对应MD及结构化表，遵守docs/filing_cache.md；仅缺字段、更正、冲突、重大附注或抽查才回原PDF定点补录，不重复全文读取。旧聊天/自动报告只提供线索，不能作为原始证据。
 
 1. 关键数值必须有source_id、原始URL、报告期、来源发布日期、页码、单位和版本；实际/预测/直接计算/推论分开。未取到不是零，没有发现不是没有。
 2. 市场数据必须区分不复权/前复权/后复权及采集版本；成交量的股/手不能混用。收盘与结算、实物吨与SC6/LCE、项目与权益口径分开。
