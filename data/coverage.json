@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-05",
   "market_target_start": "2023-11-04",
   "market_target_end": "2026-11-03",
   "symbols": [
@@ -37,5 +37,11 @@
   "annual_segment_rows": 18,
   "annual_volume_rows": 9,
   "annual_indicator_rows": 6,
-  "full_filing_text_converted": false
+  "full_filing_text_converted": false,
+  "asset_operator_reports_original_pdf_checked": 1,
+  "asset_operator_verified_project_periods": 2,
+  "latest_asset_operator_source_id": "IGO_2026SEP",
+  "latest_asset_operator_period_end": "2026-09-30",
+  "latest_public_incremental_report": "reports/daily_2026-11-05.md",
+  "asset_owner_cash_bridge_complete": false
 }
