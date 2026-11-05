@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "source_id": "IGO_2026SEP",
+  "report_title": "September 2026 Quarterly Activities Report",
+  "source_published": "2026-10-29",
+  "period_end": "2026-09-30",
+  "australian_fiscal_period": "FY2027 Q1",
+  "retrieved_date": "2026-11-05",
+  "url": "https://www.igo.com.au/site/pdf/0082d1ca-597e-440f-ab9b-2d32963e6f53/Platform/ListPage/September-2026-Quarterly-Activities-Report.pdf",
+  "verification": "issuer_original_pdf_visual_pages_4_5_12",
+  "pdf_archived": false,
+  "sha256": null,
+  "ownership": {
+    "windfield_tlea_pct": 51,
+    "windfield_albemarle_pct": 49,
+    "tlea_tianqi_pct": 51,
+    "tlea_igo_pct": 49,
+    "tianqi_indirect_greenbushes_pct_direct_calculation": 26.01,
+    "igo_indirect_greenbushes_pct_direct_calculation": 24.99
+  },
+  "greenbushes": {
+    "asset_id": "AU_GREENBUSHES_TALISON",
+    "basis": "project_100pct",
+    "source_printed_pages": [
+      4,
+      12
+    ],
+    "ore_grade_mined_pct_li2o": 1.77,
+    "spodumene_production_t": 435151,
+    "spodumene_sales_t": 376159,
+    "previous_quarter_production_t": 387123,
+    "previous_quarter_sales_t": 390918,
+    "cash_cost_aud_per_produced_t": 418,
+    "realized_sales_price_usd_per_t": 2130,
+    "ebitda_margin_pct": 83,
+    "capex_including_deferred_waste_aud_m": 51.5,
+    "cgp3_milestone": "reached nameplate September 2026",
+    "shipment": "Port constraints caused lower sales and higher concentrate inventory",
+    "cash_cost_definition": "mining, processing, crushing and site administration; excludes inventory adjustments, offsite/royalty, non-site G&A"
+  },
+  "kwinana": {
+    "asset_id": "AU_KWINANA_TLEA",
+    "basis": "project_100pct",
+    "source_printed_pages": [
+      5,
+      12
+    ],
+    "hydroxide_production_t": 918,
+    "hydroxide_sales_t": 926,
+    "conversion_cost_aud_per_produced_t": 33677,
+    "realized_sales_price_usd_per_t": 17676,
+    "ebitda_aud_m": -65.4,
+    "nrv_inventory_adjustment_aud_m": -32,
+    "capex_aud_m": 14.2,
+    "shutdown": "calciner-related shutdown, completed in quarter",
+    "cost_definition": "conversion excludes spodumene raw material and LISP support; not full cost",
+    "ebitda_note": "company-reported non-IFRS includes inventory NRV and unusual expensing of IGO share of capital expenditure"
+  },
+  "dividends": {
+    "source_printed_pages": [
+      4,
+      5
+    ],
+    "windfield_total_paid_to_all_owners_aud_m": 680.1,
+    "tlea_received_from_windfield_aud_m": 347,
+    "tlea_received_previous_quarter_aud_m": 199,
+    "tlea_dividend_to_its_owners_declared_during_quarter": false,
+    "next_board_decision": "December 2026 quarter",
+    "caveat": "Do not add project dividend and TLEA receipt; cash received at TLEA not proven remitted to Tianqi listed parent"
+  },
+  "limitations": "Operating figures unaudited; direct equity percentages do not establish listed parent attributable profit or accessible cash; no double count with any operator/owner releases."
+}
