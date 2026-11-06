@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "asset_id": "LAR_CORPORATE_FINANCING_2026_GANFENG",
+  "counterparty": "Ganfeng Lithium Group",
+  "issuer": "Lithium Argentina AG",
+  "transaction_scope": "corporate convertible loan; not direct Cauchari-Olaroz incremental ownership or project production",
+  "currency": "USD",
+  "financing": {
+    "public_close_date": "2026-09-15",
+    "original_announcement_date": "2026-08-24",
+    "principal_m": 180,
+    "term_years": 6,
+    "unsecured": true,
+    "annual_coupon_pct": 4,
+    "conversion_price_usd_per_share": 12.5,
+    "contractual_annual_coupon_usd_m_direct_calculation": 7.2,
+    "ganfeng_reported_equity_pct_on_2026_09_15": 9.6,
+    "potential_fully_diluted_equity_pct_on_full_conversion_at_announcement": 16.1,
+    "potential_additional_shares_m_on_full_conversion": 14.4,
+    "source_url": "https://lithiumargentina.gcs-web.com/news-releases/news-release-details/lithium-argentina-announces-closing-180m-strategic-investment",
+    "source_published": "2026-09-15",
+    "source_type": "issuer_announcement_original_html",
+    "evidence": "closed_not_forecast"
+  },
+  "issuer_debt_repurchase": {
+    "event_date": "2026-10-26",
+    "old_note_principal_redeemed_usd_m": 200,
+    "old_note_cash_paid_usd_m_approx": 198,
+    "old_note_principal_remaining_usd_m_approx": 59,
+    "cash_after_repurchase_usd_m_greater_than": 100,
+    "source_url": "https://rss.globenewswire.com/news-release/2026/10/26/3387920/0/en/lithium-argentina-announces-repurchase-of-200-million-of-its-2027-convertible-notes.html",
+    "source_published": "2026-10-26",
+    "source_type": "issuer_press_release_distribution",
+    "evidence": "completed_repurchase"
+  },
+  "project_stage2": {
+    "project_id": "AR_CAUCHARI_OLAROZ_STAGE2",
+    "scoping_study_published": "2026-09-30",
+    "planned_additional_lce_tpa": 45000,
+    "proposed_initial_dle_module_lce_tpa": 10000,
+    "initial_module_target_year": 2028,
+    "initial_module_permits_and_chinese_technology_export_authorization_required": true,
+    "project_100pct_estimated_total_capex_usd_m": 1013,
+    "capex_status": "conceptual_scoping_not_completed_capex",
+    "source_url": "https://lithiumargentina.gcs-web.com/news-releases/news-release-details/lithium-argentina-announces-cauchari-olaroz-stage-2-scoping"
+  },
+  "data_cautions": [
+    "Issuer loan inflow is a financing cash flow, not operating cash flow of the lithium asset",
+    "Ganfeng's accounting classification and actual cash deployment must be reconciled to its own consolidated statements",
+    "Do not infer coupon actually received or conversion executed",
+    "A finance investment in LAR does not add to the Exar ownership percentage automatically",
+    "Annual note coupon is nominal contract interest before tax, FX and credit risk",
+    "Project stage2 planned volumes are not 2026 or 2027 realized output"
+  ],
+  "retrieved_date": "2026-11-06",
+  "underlying_pdf_archived": false,
+  "underlying_pdf_sha256": null
+}
