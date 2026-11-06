@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-05",
+  "as_of": "2026-11-06",
   "market_target_start": "2023-11-04",
   "market_target_end": "2026-11-03",
   "symbols": [
@@ -42,6 +42,11 @@
   "asset_operator_verified_project_periods": 2,
   "latest_asset_operator_source_id": "IGO_2026SEP",
   "latest_asset_operator_period_end": "2026-09-30",
-  "latest_public_incremental_report": "reports/daily_2026-11-05.md",
-  "asset_owner_cash_bridge_complete": false
+  "latest_public_incremental_report": "reports/daily_2026-11-06.md",
+  "asset_owner_cash_bridge_complete": false,
+  "asset_financing_source_verified": 2,
+  "asset_financing_issuers_verified": [
+    "Lithium Argentina AG"
+  ],
+  "asset_financing_latest_source_date": "2026-10-26"
 }
