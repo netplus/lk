@@ -1,0 +1,93 @@
+{
+  "as_of": "2026-11-09 08:00 Asia/Shanghai",
+  "latest_market_date": "2026-11-06",
+  "spot_mysteel": {
+    "battery_carbonate_evening_mid_cny_t": 93800,
+    "prior_2026_10_30_cny_t": 93450,
+    "source": "https://xny.mysteel.com/",
+    "level": "Mysteel first-party quote"
+  },
+  "gfex_secondary": {
+    "contract": "LC2701",
+    "close_cny_t": 92860,
+    "settlement_cny_t": 91940,
+    "volume_lots": 387415,
+    "open_interest_lots": 391338,
+    "prior_2026_10_30_close_cny_t": 88500,
+    "prior_open_interest_lots": 443073,
+    "contract_far": "LC2705",
+    "far_close_cny_t": 92480,
+    "far_settlement_cny_t": 91700,
+    "source": "https://aureliandataservices.com/commodities/lc",
+    "original_exchange_checked": false
+  },
+  "warehouse_secondary": {
+    "on_2026_10_30_t": 17121,
+    "on_2026_11_06_t": 21720,
+    "source": "https://futures.eastmoney.com/qihuo/lc.html?StockCode_bar=RM2609",
+    "other_secondary_conflict_t": 21732,
+    "exchange_original_checked": false
+  },
+  "smm_expanded_inventory_secondary": {
+    "date": "2026-11-05",
+    "total_t": 125391,
+    "prior_t": 128385,
+    "change_t": -2994,
+    "parts_t": {
+      "salt_plant": 35702,
+      "cathode": 35186,
+      "trader": 36760,
+      "cell_and_other": 17743
+    },
+    "changes_t": {
+      "salt_plant": -809,
+      "cathode": -553,
+      "trader": -1342,
+      "cell_and_other": -290
+    },
+    "source": "https://finance.sina.com.cn/money/future/fmnews/2026-11-06/doc-inixucte8895292.shtml",
+    "note": "Independent broker quote supports earlier dashboard entry, but SMM original table unavailable"
+  },
+  "mysteel_inventory_secondary": {
+    "date": "2026-11-05",
+    "total_t": 95550,
+    "weekly_delta_t": -610,
+    "salt_plant_t": 19900,
+    "trader_t": 34750,
+    "materials_and_end_t": 40900,
+    "source": "https://finance.sina.com.cn/money/future/roll/2026-11-07/doc-inixxqmq7834631.shtml",
+    "note": "Different sample; not comparable in absolute level to SMM"
+  },
+  "smm_four_routes_secondary": {
+    "date": "2026-11-05",
+    "production_t": 28200,
+    "weekly_change_t": 379,
+    "routes_t": {
+      "spodumene": 17042,
+      "lepidolite": 3209,
+      "brine": 5554,
+      "recycling": 2395
+    },
+    "source": "https://www.sohu.com/a/1097907515_122014422"
+  },
+  "mysteel_mine_inventory": {
+    "date": "2026-11-05",
+    "port_actual_t": 388000,
+    "port_change_t": -16000,
+    "trader_actual_t": 209000,
+    "trader_change_t": -37000,
+    "trader_sellable_actual_t": 157000,
+    "trader_sellable_change_t": -18000,
+    "port_source": "https://xny.mysteel.com/a/26110517/D44A5FD806752DD1.html",
+    "trader_source": "https://xny.mysteel.com/a/26110517/FF06C9C9671A085D.html"
+  },
+  "mysteel_monthly_production": {
+    "period": "2026-10",
+    "actual_t": 117700,
+    "month_change_pct": 2.7,
+    "november_plan_t": 121800,
+    "november_plan_pct": 3.5,
+    "source": "https://xny.mysteel.com/a/26110116/4053A8A6851103FB.html",
+    "correction": "Prior report accidentally transcribed 10.77万 versus original 11.77万"
+  }
+}
