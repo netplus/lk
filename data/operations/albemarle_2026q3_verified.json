@@ -1,0 +1,37 @@
+{
+  "issuer": "Albemarle Corporation",
+  "period": "2026Q3",
+  "published": "2026-11-04",
+  "original_html": "https://www.albemarle.com/us/en/news/albemarle-reports-third-quarter-2026-results",
+  "Energy_Storage": {
+    "actual_sales_kt_lce": 56,
+    "previous_year_sales_kt_lce": 69,
+    "realized_price_usd_kg_lce": 20.02,
+    "previous_yoy_realized_price_usd_kg_lce": 10.28,
+    "net_sales_usd_m": 1118.8,
+    "adjusted_ebitda_usd_m": 559.8
+  },
+  "company_q3": {
+    "operating_cf_usd_m": 406,
+    "company_defined_fcf_usd_m": 325,
+    "operating_cf_includes_Talison_cash_dividend": true
+  },
+  "forward_guidance": {
+    "fy2026_energy_storage_lce_sales_kt": [
+      225,
+      235
+    ],
+    "company_capex_usd_m": [
+      300,
+      350
+    ],
+    "cg_p3_30_days_nameplate_in_2026_09": true,
+    "q4_market_price_lag": "Company expects Q4 energy storage revenue and adjusted EBITDA down sequentially from pricing and previously high-cost spodumene inventory"
+  },
+  "evidence": "issuer original HTML, not PDF",
+  "warnings": [
+    "Not Tianqi profit or parent cash",
+    "Energy Storage segment includes lithium chemical and spodumene businesses and JV interests",
+    "Outlook not achieved volume"
+  ]
+}
