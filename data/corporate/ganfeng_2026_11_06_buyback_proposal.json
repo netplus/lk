@@ -1,0 +1,20 @@
+{
+  "issuer": "江西赣锋锂业集团股份有限公司",
+  "symbol": "002460.SZ",
+  "announcement": "临2026-115",
+  "date_received": "2026-11-06",
+  "publication_date": "2026-11-07",
+  "event_status": "PROPOSAL_ONLY",
+  "proposer": "李良彬",
+  "shares": "A股",
+  "minimum_cny_m": 200,
+  "maximum_cny_m": 400,
+  "source_funds": "自有资金及/或自筹资金，可能包含回购贷款",
+  "upper_limit_price_rule": "董事会审议前30交易日均价150%",
+  "term": "董事会批准后12个月内",
+  "disposal": "结果公告12个月后通过竞价出售、3年内完成；未出售部分依法注销",
+  "source_issuer_notice_reprint": "https://stock.stockstar.com/notice/SN2026110700001465.shtml",
+  "source_securities_paper": "https://finance.sina.com.cn/roll/2026-11-06/doc-inixvfew8802436.shtml",
+  "original_exchange_pdf_checked": false,
+  "finance_implication": "Potential cash use, not executed cash flow or automatic permanent share retirement"
+}
