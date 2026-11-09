@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-09",
   "market_target_start": "2023-11-04",
   "market_target_end": "2026-11-03",
   "symbols": [
@@ -42,11 +42,22 @@
   "asset_operator_verified_project_periods": 2,
   "latest_asset_operator_source_id": "IGO_2026SEP",
   "latest_asset_operator_period_end": "2026-09-30",
-  "latest_public_incremental_report": "reports/daily_2026-11-06.md",
+  "latest_public_incremental_report": "reports/weekly_2026-11-09.md",
   "asset_owner_cash_bridge_complete": false,
   "asset_financing_source_verified": 2,
   "asset_financing_issuers_verified": [
     "Lithium Argentina AG"
   ],
-  "asset_financing_latest_source_date": "2026-10-26"
+  "asset_financing_latest_source_date": "2026-10-26",
+  "latest_industry_period": "2026-11-06_quote__2026-11-05_survey",
+  "latest_industry_source_scoped_json": "data/industry/weekly_2026-11-06_verified.json",
+  "latest_asset_peer_original_html": "data/operations/albemarle_2026q3_verified.json",
+  "latest_asset_peer_original_html_published": "2026-11-04",
+  "latest_corporate_proposal": "data/corporate/ganfeng_2026_11_06_buyback_proposal.json",
+  "latest_public_research_arithmetic_checks": 8,
+  "latest_public_research_arithmetic_checks_passed": true,
+  "latest_offline_tests": "not_run_container_git_clone_dns_failed",
+  "smm_2026_11_05_inventory_evidence": "broker_corroborated_secondary_only_not_SMM_original",
+  "gfex_2026_11_06_evidence": "secondary_two_sources_minor_one_hand_open_interest_disagreement; warehouse_12_t_disagreement_unresolved",
+  "october_mysteel_production_correction": "2026-11-02 previous report 10.77 -> first-party correct 11.77 (2026-11-01), November plan 12.18"
 }
