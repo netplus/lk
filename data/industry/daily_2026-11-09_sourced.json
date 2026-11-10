@@ -1,0 +1,120 @@
+{
+  "as_of": "2026-11-10 07:59 Asia/Shanghai",
+  "latest_market_date": "2026-11-09",
+  "type": "sourced_daily_increment",
+  "spot_mysteel_evening": {
+    "product": "battery_grade_lithium_carbonate_Li2CO3_ge_99_5pct",
+    "quote_cny_per_product_t": 92100,
+    "range_cny_per_product_t": [
+      90300,
+      93900
+    ],
+    "prior_date": "2026-11-06",
+    "prior_quote_cny_per_product_t": 93800,
+    "daily_change_cny_per_t": -1700,
+    "daily_change_pct_direct_calc": -1.81236673774,
+    "source_url": "https://li.mysteel.com/",
+    "publisher": "Mysteel",
+    "published_date": "2026-11-09",
+    "type": "actual_survey_quote",
+    "source_status": "first_party_price_site"
+  },
+  "gfex_nov09_secondary": {
+    "contract": "LC2701",
+    "close_cny_per_t": 87480,
+    "close_source_url": "https://www.cnfin.com/dz-lb/detail/20261109/4493024_1.html",
+    "settlement_cny_per_t": 89760,
+    "volume_lots": 352317,
+    "open_interest_lots": 400442,
+    "prior_2026_11_06_close": 92860,
+    "prior_2026_11_06_settlement": 91940,
+    "prior_2026_11_06_open_interest_lots": 391338,
+    "far_contract": "LC2705",
+    "far_settlement_cny_per_t": 89600,
+    "prior_far_settlement_cny_per_t": 91700,
+    "near_minus_far_settlement_cny_per_t_direct_calc": 160,
+    "prior_near_minus_far_settlement_cny_per_t_direct_calc": 240,
+    "curve_source": "https://aureliandataservices.com/commodities/lc",
+    "source_status": "secondary_close_news_and_nonexchange_daily_settlement; exchange_original_unchecked"
+  },
+  "warehouse_nov09_secondary": {
+    "registered_lots": 23760,
+    "contract_product_t_per_lot": 1,
+    "previous_2026_11_06_lots": 21720,
+    "daily_change_lots": 2040,
+    "daily_change_pct_direct_calc": 9.39226519337,
+    "source_url": "https://www.cls.cn/detail/2529002",
+    "source_published": "2026-11-09 15:46 Asia/Shanghai",
+    "source_status": "news_relay_citing_exchange; official_original_not_fetched",
+    "caution": "do not add to SMM or Mysteel inventory; previous secondary daily vs broker mismatch 12 t remains recorded as Q016"
+  },
+  "yaan_cathode_lithium_plant": {
+    "project_unique_id": "CN_CATL_YAAN_LITHIUM_SALTS",
+    "event_date": "2026-11-06",
+    "reported": "2026-11-09",
+    "state": "EIA_proposed_approval_notice_not_actual_approval_or_production",
+    "developer": "宁德时代（雅安）新材料科技有限公司",
+    "planned_total_investment_cny_m": 1400,
+    "planned_battery_carbonate_product_tpa": 40000,
+    "planned_lithium_dihydrogen_phosphate_product_tpa": 30000,
+    "source_url": "https://news.mysteel.com/a/26110915/A64B0953E1C31F09.html",
+    "source_status": "secondary_reprint_attributed_to_Yaan_ecology_department; agency_original_unavailable",
+    "note": "Different product tonnes are not additive LCE; no verified startup or shipping or project cash"
+  },
+  "latest_industry_weekly_survey_reference": {
+    "period": "2026-11-05",
+    "path": "data/industry/weekly_2026-11-06_verified.json",
+    "smm_expanded_inventory_t": 125391,
+    "mysteel_inventory_t": 95550,
+    "new_same_sample_inventory_as_of_2026_11_09": null
+  },
+  "links_to_company_cash_thesis": {
+    "tianqi": "data/operations/igo_2026q3_verified.json",
+    "ganfeng": "data/financing/lithium_argentina_2026_ganfeng_convertible.json",
+    "company_filing_cards": [
+      "research/filings/tianqi/2026_Q3.md",
+      "research/filings/ganfeng/2026_Q3.md"
+    ]
+  },
+  "valuation_gate": "BLOCKED",
+  "backtest_gate": "BLOCKED",
+  "equity_or_personal_trading_data_included": false,
+  "validation": {
+    "arithmetic_checks": [
+      {
+        "name": "spot_daily_pct",
+        "passed": true
+      },
+      {
+        "name": "futures_close_daily_pct",
+        "passed": true
+      },
+      {
+        "name": "settlement_daily_pct",
+        "passed": true
+      },
+      {
+        "name": "spread_nov09",
+        "passed": true
+      },
+      {
+        "name": "spread_nov06",
+        "passed": true
+      },
+      {
+        "name": "open_interest_daily_change",
+        "passed": true
+      },
+      {
+        "name": "warehouse_daily_delta",
+        "passed": true
+      },
+      {
+        "name": "warehouse_daily_pct",
+        "passed": true
+      }
+    ],
+    "full_repo_tests": "not_run_no_local_worktree",
+    "original_exchange_and_smm_files": "not_obtained"
+  }
+}
