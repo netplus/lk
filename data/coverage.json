@@ -39,7 +39,7 @@
   "annual_indicator_rows": 6,
   "full_filing_text_converted": false,
   "asset_operator_reports_original_pdf_checked": 1,
-  "asset_operator_verified_project_periods": 2,
+  "asset_operator_verified_project_periods": 3,
   "latest_asset_operator_source_id": "LAR_2026Q3_RELEASE",
   "latest_asset_operator_period_end": "2026-09-30",
   "latest_public_incremental_report": "reports/daily_2026-11-11.md",
@@ -70,5 +70,6 @@
   "cauchari_lar_equity_vs_offtake_scopes_checked": true,
   "cauchari_exar_q3_2026_project_operating_and_distribution_verified": true,
   "cauchari_ganfeng_listed_parent_q3_cash_receipt_usdm": null,
-  "cauchari_ganfeng_parent_cash_bridge_complete": false
+  "cauchari_ganfeng_parent_cash_bridge_complete": false,
+  "asset_operator_verified_project_periods_note": "2 IGO project operator series at 2026-09-30 plus 1 new LAR Cauchari Exar project Q3 source; count measures project-report periods not distinct filing PDFs"
 }
