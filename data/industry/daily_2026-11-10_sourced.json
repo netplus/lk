@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-11 08:00 Asia/Shanghai",
+  "market_date": "2026-11-10",
+  "type": "sourced_daily_increment",
+  "price": {
+    "publisher": "Mysteel",
+    "quote_time": "evening",
+    "product": "battery_grade_Li2CO3_ge99_5",
+    "range_cny_t": [
+      89800,
+      93900
+    ],
+    "mid_cny_t": 91850,
+    "previous_mid_cny_t": 92100,
+    "previous_date": "2026-11-09",
+    "mid_change_cny_t": -250,
+    "mid_pct_direct_calc": -0.271,
+    "industrial_grade_mid_cny_t": 89850,
+    "source_url": "https://li.mysteel.com/",
+    "evidence": "first_party_survey_quote"
+  },
+  "gfex": {
+    "main": "LC2701",
+    "close_cny_t": 87100,
+    "previous_close_cny_t": 87480,
+    "settlement_cny_t": 88080,
+    "previous_settlement_cny_t": 89760,
+    "volume_lots": 267255,
+    "open_interest_lots": 401689,
+    "previous_open_interest_lots": 400442,
+    "far_contract": "LC2705",
+    "far_close_cny_t": 86680,
+    "far_settlement_cny_t": 87740,
+    "far_previous_settlement_cny_t": 89600,
+    "near_far_settlement_spread_cny_t": 340,
+    "previous_spread_cny_t": 160,
+    "source_urls": [
+      "https://aureliandataservices.com/commodities/lc",
+      "https://www.9qihuo.com/hangqing?productcode=lc"
+    ],
+    "source_evidence": "third_party_daily_contract_aggregation_not_exchange_original"
+  },
+  "warehouse": {
+    "registered_lots": 23810,
+    "previous_lots": 23760,
+    "delta_lots": 50,
+    "source_url": "https://www.cls.cn/subject/1313",
+    "published_date": "2026-11-10",
+    "evidence": "news_relay_of_Guangzhou_Futures_Exchange"
+  },
+  "supply_demand_latest_weekly_date": "2026-11-05",
+  "new_weekly_stock_survey_date": "none_as_of_2026-11-11_morning",
+  "lithium_argentina_2026q3_original": "data/operations/cauchari_olaroz_2026q3_verified.json",
+  "note": "No fabricated 2026-11-11 morning China quote. 2026-11-10 spot evening and futures close are latest.",
+  "not_included": "personal holdings"
+}
