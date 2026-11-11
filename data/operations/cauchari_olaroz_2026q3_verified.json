@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "project_unique_id": "AR_CAUCHARI_OLAROZ_STAGE1",
+  "operator": "Minera Exar",
+  "quarter_end": "2026-09-30",
+  "source_published_date": "2026-11-10",
+  "source_retrieved_date": "2026-11-11",
+  "source_ids": [
+    "LAR_2026Q3_RELEASE",
+    "LAR_2026Q3_SEC_MDA"
+  ],
+  "source_urls": [
+    "https://investors.lithium-argentina.com/news-releases/news-release-details/lithium-argentina-reports-third-quarter-2026-results",
+    "https://www.sec.gov/Archives/edgar/data/1440972/000162828026072491/lar-20260930xexx992mda.htm"
+  ],
+  "source_type": "issuer_original_HTML_and_SEC_MDA_original_HTML",
+  "scope": "100pct_project_unless_explicitly_labeled_otherwise",
+  "status": "reported_actual_unreviewed_primary_original_HTML_not_audited_2026Q3",
+  "ownership": {
+    "lar_equity_pct": 44.8,
+    "ganfeng_project_equity_pct": null,
+    "ganfeng_project_equity_unverified_in_this_release": true,
+    "lar_physical_offtake_entitlement_pct": 49,
+    "note": "44.8% equity differs from 49% shipment/offtake entitlement; LAR's 49%-entitled shipment flow acts as agent without recognizing revenue or COS, per SEC MD&A."
+  },
+  "production": {
+    "q3_lithium_carbonate_product_t": 9550,
+    "q2_comparator_product_t": 9280,
+    "ytd_9m_product_t": 28490,
+    "design_capacity_operating_rate_reported_pct": 95,
+    "full_year_2026_guidance_product_t_range": [
+      35000,
+      40000
+    ],
+    "q3_product_actual": true,
+    "guidance_not_realized": true
+  },
+  "shipping": {
+    "q3_lithium_carbonate_dry_t": 10488,
+    "q2_dry_t": 8901,
+    "year_over_year_previous_q3_dry_t": 7775,
+    "unit_note": "dry shipment tonnes, not equivalent to product tonnes produced in exact same window"
+  },
+  "realized": {
+    "q3_revenue_usdm": 184.4,
+    "q3_avg_realized_price_usd_per_t": 17580,
+    "q3_cost_of_sales_usdm": 73.4,
+    "q3_c1_cash_operating_cost_usd_per_sold_t": 5801,
+    "q2_c1_usd_per_sold_t": 5897,
+    "q3_c2_total_cash_cost_usd_per_sold_t": 6734,
+    "q2_c2_usd_per_sold_t": 7005,
+    "q3_adj_ebitda_usdm": 112.5,
+    "q2_adj_ebitda_usdm": 110.3,
+    "q3_net_income_usdm": 36.8,
+    "q2_net_income_usdm": 27,
+    "non_ifrs_cost_and_ebitda": true
+  },
+  "cash": {
+    "q3_ifrs_operating_cf_project_100pct_usdm": 94.6,
+    "q3_pp_e_usdm": 2.8,
+    "q3_capitalized_construction_interest_settlement_usdm": 19.6,
+    "q3_exar_fcf_usdm": 72.2,
+    "q3_exar_fcf_from_operations_usdm": 91.8,
+    "q3_cash_distribution_to_lar_and_ganfeng_total_usdm": 100,
+    "nine_month_distribution_to_both_net_withholding_usdm": 200,
+    "nine_month_amount_attributable_to_lar_usdm": 100.3,
+    "post_sep_additional_distribution_to_both_usdm": 30,
+    "post_sep_amount_attributable_to_lar_usdm": 13.7,
+    "year_to_post_sep_distribution_total_to_both_usdm": 230,
+    "amount_actually_received_by_ganfeng_public_company_q3_usdm": null,
+    "capitalized_interest_settlement_is_excluded_from_91_8_fcf_from_operations": true,
+    "note": "Not all project FCF is shareholder discretionary cash; related-party loans, project third-party debt, tax/withholding and distributions require reconciliation. Q3 $100m is to both LAR and Ganfeng in aggregate; not each. Q3 LAR receipt cannot be derived by applying equity percentage. 9M LAR attributable amount is not added to project distribution again."
+  },
+  "financing": {
+    "project_third_party_net_debt_q3_usdm": 171,
+    "project_revolving_syndicated_facility_usdm": 170,
+    "drawn_as_of_q3_usdm": 36,
+    "ganfeng_to_lar_unsecured_convertible_usdm": 180,
+    "ganfeng_to_lar_date": "2026-09-15",
+    "lar_cash_2026_09_30_usdm": 312.3,
+    "lar_corporate_2026_10_old_debt_principal_repurchase_usdm": 200,
+    "lar_2026_10_cash_paid_approx_usdm": 198,
+    "note": "$180m convertible inflow is LAR corporate financing and Ganfeng capital deployed, not Exar operating CF or Ganfeng realized coupon."
+  },
+  "project_stage2": {
+    "planned_additional_lce_tpa": 45000,
+    "initial_dle_module_planned_tpa": 10000,
+    "initial_module_first_output_target_year": 2028,
+    "planned_total_initial_capex_usdm_approx": 1013,
+    "permit_and_tech_export_conditions": true,
+    "current_production_t_from_stage2": 0,
+    "source_status": "company_scoping_and_forward_guidance_not_realized"
+  },
+  "calculation_and_status": {
+    "production_qoq_pct_direct_calc": 2.91,
+    "shipment_qoq_pct_direct_calc": 17.83,
+    "cash_c1_cost_qoq_pct_direct_calc": -1.63,
+    "liquidity_to_ganfeng_parent_complete": false,
+    "asset_to_listed_owner_cash_bridge_complete": false
+  },
+  "source_sections": [
+    "LAR release Highlights: Stage 1",
+    "LAR release Exar Cash Operating Costs and FCF",
+    "SEC MD&A: Cash distributions ~ excerpt 'During the nine months ended'",
+    "SEC MD&A: Purchases and sales of lithium carbonate / offtake"
+  ],
+  "pdf_bytes_archived": false,
+  "pdf_sha256": null,
+  "personal_accounts_included": false
+}
