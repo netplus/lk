@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-12 08:03 Asia/Shanghai",
+  "market_date": "2026-11-11",
+  "type": "source_scoped_daily_increment",
+  "spot": {
+    "product": "Li2CO3_battery_grade_ge99_5",
+    "quote_agency": "iFind_domestic_spot",
+    "quote_phase": "daily_quote_not_treated_as_Mysteel_evening_primary",
+    "value_cny_per_product_t": 90100,
+    "previous_day_cny_per_t": 91850,
+    "change_cny_per_t": -1750,
+    "change_pct_direct_calc": -1.9053,
+    "source_url": "https://goodsfu.10jqka.com.cn/20261111/c681723558.shtml",
+    "evidence": "first_party_iFind_data_reprinted_in_10jqka_media_not_independent_Mysteel_late_quote"
+  },
+  "mysteel_early_session": {
+    "market_date": "2026-11-11",
+    "product": "battery_grade_ge99_5",
+    "range_cny_per_t": [
+      87800,
+      91000
+    ],
+    "middle_cny_per_t": 89400,
+    "phase": "morning_only_not_comparable_with_yesterday_evening",
+    "source": "https://www.cnfin.com/kx/detail/20261111/4493948_1.html"
+  },
+  "gfex": {
+    "main": "LC2701",
+    "basis": "2026-11-11",
+    "close_cny_per_t": 88900,
+    "previous_close_cny_per_t": 87100,
+    "settlement_cny_per_t": 88460,
+    "previous_settlement_cny_per_t": 88080,
+    "volume_lots": 308947,
+    "open_interest_lots": 390621,
+    "previous_oi_lots": 401689,
+    "far": "LC2705",
+    "far_settlement_cny_per_t": 88240,
+    "near_far_settlement_spread_cny_per_t": 220,
+    "previous_spread_cny_per_t": 340,
+    "evidence": "third_party_exchange_data_relay_not_GFEX_original",
+    "source_urls": [
+      "https://www.steelhome.com/detailspage.php?nid=4792258&ntype=n",
+      "https://aureliandataservices.com/commodities/lc"
+    ]
+  },
+  "gfex_warrants": {
+    "registered_lots": 23296,
+    "registered_product_t": 23296,
+    "previous_lots": 23810,
+    "change_lots": -514,
+    "comparison_2026_11_06_lots": 21720,
+    "source_url": "https://www.99qh.com/article/1114705",
+    "evidence": "third_party_exchange_warrant_by_warehouse_relay_not_GFEX_original"
+  },
+  "chile_customs_relay": {
+    "month": "2026-10",
+    "total_export_physical_t_rounded": 22300,
+    "total_mom_pct_reported": 18,
+    "total_yoy_pct_reported": -10,
+    "export_to_china_physical_t_rounded": 14300,
+    "china_mom_pct_reported": 6.5,
+    "china_yoy_pct_reported": -11.6,
+    "source_urls": [
+      "https://xny.mysteel.com/a/26110915/EDCC11DD5732F8FE.html",
+      "https://news.smm.cn/live/detail/62DHDJ7OYCNKTVNRN373UG2RBQZ3M6PZKY4I2ZA"
+    ],
+    "evidence": "industry_secondary_relay_from_Chile_Customs_not_original_customs_file",
+    "not_china_import_or_arrival": true
+  },
+  "latest_lithium_salt_inventory_survey_date": "2026-11-05",
+  "latest_lithium_salt_inventory_covered_t": 125391,
+  "new_weekly_survey_date": "not_confirmed_as_of_2026-11-12_08_03",
+  "not_included": "personal holdings, adjusted stock price history, model-estimated demand, recycled other-day news as new release"
+}
