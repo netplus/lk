@@ -106,5 +106,21 @@
   ],
   "pdf_bytes_archived": false,
   "pdf_sha256": null,
-  "personal_accounts_included": false
+  "personal_accounts_included": false,
+  "lar_cash_receipt_reconciliation_2026q3": {
+    "verified_at": "2026-11-12 08:03 Asia/Shanghai",
+    "source_id": "LAR_2026Q3_SEC_MDA",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1440972/000162828026072491/lar-20260930xexx992mda.htm",
+    "source_section": "Free Cash Flow reconciliation; Investing Activities; Related Party Transactions",
+    "scope": "LAR_corporate_not_Exar_project_cash_flow_and_not_Ganfeng_corporate",
+    "lar_q3_received_from_exar_capital_loans_and_interest_usdm": 45.6,
+    "lar_9m_received_from_exar_capital_loans_and_interest_usdm": 58.6,
+    "lar_9m_acquisition_of_Exar_Capital_loan_receivables_from_Ganfeng_cash_out_usdm": 26,
+    "lar_q3_cash_flow_continuing_operations_usdm": -11.3,
+    "lar_q3_company_defined_nonIFRS_FCF_usdm": 34.3,
+    "calculation": "-11.3 + 45.6 = 34.3 US$ million, before scheduled convertible/debenture repayment",
+    "notes": "Issuer explicitly says related cash is received through shareholder loan principal/interest repayments rather than dividends; Exar 100% project distribution US$100m in Q3, LAR US$45.6m cash receipt, and LAR 9M US$100.3m attributed distributions are different scope/period/flow definitions and not additive. Cannot infer Ganfeng listed parent cash receipt.",
+    "ganfeng_parent_q3_cash_received_from_project_usdm": null,
+    "status": "issuer_original_SEC_MDA_statement_verified_but_Ganfeng_owner_cash_bridge_still_open"
+  }
 }
