@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-11",
+  "as_of": "2026-11-12",
   "market_target_start": "2023-11-04",
   "market_target_end": "2026-11-03",
   "symbols": [
@@ -42,7 +42,7 @@
   "asset_operator_verified_project_periods": 3,
   "latest_asset_operator_source_id": "LAR_2026Q3_RELEASE",
   "latest_asset_operator_period_end": "2026-09-30",
-  "latest_public_incremental_report": "reports/daily_2026-11-11.md",
+  "latest_public_incremental_report": "reports/daily_2026-11-12.md",
   "asset_owner_cash_bridge_complete": false,
   "asset_financing_source_verified": 2,
   "asset_financing_issuers_verified": [
@@ -54,22 +54,24 @@
   "latest_asset_peer_original_html": "data/operations/albemarle_2026q3_verified.json",
   "latest_asset_peer_original_html_published": "2026-11-04",
   "latest_corporate_proposal": "data/corporate/ganfeng_2026_11_06_buyback_proposal.json",
-  "latest_public_research_arithmetic_checks": 11,
+  "latest_public_research_arithmetic_checks": 6,
   "latest_public_research_arithmetic_checks_passed": true,
-  "latest_offline_tests": "not_run_no_local_worktree_2026_11_11",
+  "latest_offline_tests": "not_run_no_local_worktree_2026_11_12",
   "smm_2026_11_05_inventory_evidence": "broker_corroborated_secondary_only_not_SMM_original",
   "gfex_2026_11_06_evidence": "secondary_two_sources_minor_one_hand_open_interest_disagreement; warehouse_12_t_disagreement_unresolved",
   "october_mysteel_production_correction": "2026-11-02 previous report 10.77 -> first-party correct 11.77 (2026-11-01), November plan 12.18",
-  "latest_daily_market_date": "2026-11-10",
-  "latest_daily_source_scoped_json": "data/industry/daily_2026-11-10_sourced.json",
-  "latest_daily_spot_evidence": "Mysteel_first_party_evening_2026_11_10",
-  "latest_daily_gfex_evidence": "third_party_close_and_settlement_2026_11_10_no_exchange_original",
-  "latest_daily_warehouse_evidence": "CLS_exchange_relay_2026_11_10_not_official_original",
+  "latest_daily_market_date": "2026-11-11",
+  "latest_daily_source_scoped_json": "data/industry/daily_2026-11-11_sourced.json",
+  "latest_daily_spot_evidence": "iFind_daily_quote_90100_secondary_media_relay; Mysteel_early_morning_89400_separate_not_mixed",
+  "latest_daily_gfex_evidence": "Steelhome_close_88900_Aurelian_settlement_88460_and_LC2705_88240_third_party_no_exchange_original",
+  "latest_daily_warehouse_evidence": "99qh_Guangzhou_Futures_Exchange_by_warehouse_relay_2026_11_11_23296_lots",
   "latest_verified_cauchari_operator_asset_source": "data/operations/cauchari_olaroz_2026q3_verified.json",
   "latest_verified_cauchari_operator_announcement_date": "2026-11-10",
   "cauchari_lar_equity_vs_offtake_scopes_checked": true,
   "cauchari_exar_q3_2026_project_operating_and_distribution_verified": true,
   "cauchari_ganfeng_listed_parent_q3_cash_receipt_usdm": null,
   "cauchari_ganfeng_parent_cash_bridge_complete": false,
-  "asset_operator_verified_project_periods_note": "2 IGO project operator series at 2026-09-30 plus 1 new LAR Cauchari Exar project Q3 source; count measures project-report periods not distinct filing PDFs"
+  "asset_operator_verified_project_periods_note": "2 IGO project operator series at 2026-09-30 plus 1 new LAR Cauchari Exar project Q3 source; count measures project-report periods not distinct filing PDFs",
+  "chile_2026_10_export_evidence": "Mysteel_and_SMM_same_Chile_Customs_2026_11_09_secondary_relay_22300t_total_14300t_to_China",
+  "lar_2026q3_cash_flow_route": "LAR_SEC_MDA_loans_and_interest_45_6m_Q3_58_6m_9M_to_LAR_corporate_not_dividends; Ganfeng_prc_parent_unverified"
 }
