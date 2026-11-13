@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-13 08:02 Asia/Shanghai",
+  "market_date": "2026-11-12",
+  "status": "sourced_increment_not_universal_primary_audit",
+  "spot": {
+    "agency": "Mysteel",
+    "phase": "late",
+    "grade": "Li2CO3>=99.5%",
+    "unit": "CNY/product_t",
+    "date": "2026-11-12",
+    "low": 89800,
+    "high": 92500,
+    "mid": 91150,
+    "previous_mid_2026_11_11": 90100,
+    "change": 1050,
+    "pct": 1.1654,
+    "source_url": "https://xny.mysteel.com/a/26111218/15EEEA7AFD23E1E7.html",
+    "source_published": "2026-11-12 18:40",
+    "evidence": "publisher_original_indexed_excerpt_full_page_open_disabled"
+  },
+  "futures": {
+    "exchange": "GFEX",
+    "source_basis": "exchange_day_secondary_table_crosschecked",
+    "contract": "LC2701",
+    "close": 90900,
+    "prev_close": 88900,
+    "settle": 89080,
+    "prev_settle": 88460,
+    "volume_lots": 296657,
+    "oi_lots": 384249,
+    "prev_oi": 390621,
+    "oi_change": -6372,
+    "far_contract": "LC2705",
+    "far_close": 90660,
+    "far_settle": 88820,
+    "close_spread": 240,
+    "settle_spread": 260,
+    "prev_settle_spread": 220,
+    "same_day_spot_minus_close_reference": 250,
+    "source_urls": [
+      "https://www.steelhome.com/detailspage.php?nid=4792784&ntype=n",
+      "https://aureliandataservices.com/commodities/lc"
+    ],
+    "source_published": "2026-11-12",
+    "evidence": "two_third_party_exchange_relay_no_GFEX_official_original"
+  },
+  "warehouse": {
+    "date": "2026-11-12",
+    "lots": 21745,
+    "previous_lots": 23296,
+    "change_lots": -1551,
+    "unit_t_per_lot": 1,
+    "comparative_2026_11_06_lots": 21720,
+    "source_url": "https://www.99qh.com/article/1115162",
+    "source_published": "2026-11-12 15:39",
+    "evidence": "third_party_exchange_by_warehouse_relay_not_official"
+  },
+  "mysteel_salt_inventory": {
+    "release_date": "2026-11-11",
+    "survey_period": "week_around_2026-11-11_exact_cutoff_not_explicit",
+    "sample": "Mysteel_lithium_carbonate_weekly_sample",
+    "unit": "product_t",
+    "total": 94290,
+    "prior_total": 95550,
+    "change": -1260,
+    "salt_producer": 20550,
+    "salt_producer_change": 650,
+    "trader": 32460,
+    "trader_change": -2290,
+    "material_terminal": 41280,
+    "material_terminal_change": 380,
+    "source_url": "https://xny.mysteel.com/a/26111116/CEAD68D159DB09B1.html",
+    "source_published": "2026-11-11 16:07",
+    "evidence": "publisher_original_indexed_excerpt_sample_coverage_estimate_80pct",
+    "not_comparable_to_SMM_125391": true
+  },
+  "ore_inventories": {
+    "date": "2026-11-12",
+    "unit": "ore_physical_t",
+    "port_t": 385000,
+    "previous_port_t": 388000,
+    "port_change_t": -3000,
+    "zhenjiang_port_t": 280000,
+    "zhenjiang_change_t": 19000,
+    "trader_sample_count": 33,
+    "trader_t": 228000,
+    "previous_trader_t": 209000,
+    "trader_change_t": 19000,
+    "trader_sellable_t": 175000,
+    "previous_sellable_t": 157000,
+    "sellable_change_t": 18000,
+    "overlap_warning": "port and trader may overlap; do not sum",
+    "source_urls": [
+      "https://xny.mysteel.com/a/26111218/802B9ECB1FDA9C64.html",
+      "https://xny.mysteel.com/a/26111218/A9C261D56D34C242.html"
+    ],
+    "evidence": "publisher_original_indexed_excerpts"
+  },
+  "smm_latest_broker_supported": {
+    "survey_date": "2026-11-05",
+    "expanded_sample_total_t": 125391,
+    "source_status": "broker_secondary_not_SMM_original"
+  },
+  "smm_2026_11_12_candidate": {
+    "expanded_sample_total_t": 122644,
+    "weekly_production_t": 28079,
+    "source_url": "https://nekomorning.github.io/lithium-dashboard/index.html",
+    "status": "unverified_third_party_dashboard_only_not_promoted_await_SMM_or_broker_original",
+    "excluded_from_primary_interpretation": true
+  },
+  "companies": {
+    "latest_financial_period_end": "2026-09-30",
+    "latest_source": "existing_repo_verified_quarter_cards",
+    "tianqi_9m_parent_net_profit_cny_100m": 56.0171,
+    "tianqi_9m_ocf_consolidated_cny_100m": 56.4504,
+    "ganfeng_9m_parent_net_profit_cny_100m": 50.1226,
+    "ganfeng_9m_ocf_consolidated_cny_100m": 22.947,
+    "valuation_gate": "BLOCKED",
+    "parent_cash_flow_bridge": "INCOMPLETE",
+    "note": "old period baseline only no new earnings claim"
+  },
+  "privacy": {
+    "personal_accounts_included": false
+  }
+}
