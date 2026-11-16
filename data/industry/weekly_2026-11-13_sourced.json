@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-16",
+  "cutoff_bjt": "2026-11-16T08:05:00+08:00",
+  "latest_market_date": "2026-11-13",
+  "cochilco": {
+    "source_id": "COCHILCO_LITHIUM_2026",
+    "source_url": "https://www.cochilco.cl/web/download/1015/2026/17067/mercado-del-litio-desarrollo-y-proyecciones.pdf",
+    "pdf_page_1based": 4,
+    "source_publication_date": "2026-11-12",
+    "evidence": "official_pdf_visually_verified",
+    "scope": "global_thousand_t_LCE",
+    "status": "forecast_not_actual",
+    "year_2026": {
+      "supply": 2004,
+      "demand": 2083,
+      "balance": -79
+    },
+    "year_2027": {
+      "supply": 2293,
+      "demand": 2251,
+      "balance": 42
+    }
+  },
+  "spot": {
+    "date": "2026-11-13",
+    "publisher": "Mysteel",
+    "source_url": "https://list1.mysteel.com/zhishi/Mysteeltsl.html",
+    "source_time": "2026-11-13 16:14",
+    "scope": "battery_grade_late_quote_product_t",
+    "range_cny_per_t": [
+      90500,
+      93800
+    ],
+    "mid_cny_per_t": 92150,
+    "last_week_mid_cny_per_t": 93800,
+    "change_cny_per_t": -1650,
+    "industrial_mid_cny_per_t": 90150
+  },
+  "futures": {
+    "date": "2026-11-13",
+    "exchange": "GFEX",
+    "main": "LC2701",
+    "close": 90580,
+    "settle": 91580,
+    "volume_lots": 314472,
+    "open_interest_lots": 367672,
+    "prev_week_close": 92860,
+    "prev_week_settle": 91940,
+    "prev_week_oi_lots": 391338,
+    "far": "LC2705",
+    "far_settle": 91320,
+    "settlement_spread": 260,
+    "sources": [
+      "https://aureliandataservices.com/commodities/lc",
+      "https://www-old.metal.com/GFEX/lc2701"
+    ],
+    "status": "secondary_GFEX_original_pending"
+  },
+  "warrants": {
+    "date": "2026-11-13",
+    "lots": 20285,
+    "product_t_per_lot": 1,
+    "prev_week_lots": 21720,
+    "change_lots": -1435,
+    "source_url": "https://jirongdata.cn/microeconomy/tansuanli.php",
+    "status": "secondary_GFEX_original_pending"
+  },
+  "smm": {
+    "date": "2026-11-12",
+    "reported": "2026-11-13",
+    "stock_product_t": 122644,
+    "prev_stock_product_t": 125391,
+    "change_t": -2747,
+    "stock_components_t": {
+      "salt": 36011,
+      "cathode": 33310,
+      "trader": 37020,
+      "cell_other": 16303
+    },
+    "component_change_t": {
+      "salt": 309,
+      "cathode": -1876,
+      "trader": 260,
+      "cell_other": -1440
+    },
+    "production_product_t": 28079,
+    "prev_production_t": 28200,
+    "production_routes_t": {
+      "spodumene": 16543,
+      "lepidolite": 3609,
+      "brine": 5504,
+      "recycle": 2423
+    },
+    "source_url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-13/doc-iniypzqm3762308.shtml",
+    "evidence": "named_broker_relay_not_SMM_original",
+    "notes": "expanded_stock_sample; four production routes; do_not_mix_Mysteel_sample"
+  },
+  "ore": {
+    "date": "2026-11-12",
+    "port_physical_t": 385000,
+    "port_change_t": -3000,
+    "traders_physical_t": 228000,
+    "traders_change_t": 19000,
+    "traders_sellable_physical_t": 175000,
+    "sellable_change_t": 18000,
+    "may_overlap": true,
+    "sources": [
+      "https://xny.mysteel.com/a/26111218/802B9ECB1FDA9C64.html",
+      "https://xny.mysteel.com/a/26111218/A9C261D56D34C242.html"
+    ]
+  },
+  "demand": {
+    "period": "2026-10",
+    "nev_sales_10k_units": 194,
+    "nev_export_10k_units": 60.6,
+    "nev_source": "https://www.miit.gov.cn/gxsj/tjfx/zbgy/qc/art/2026/art_dcf1d4bac0964f13b6eb4a3aa062fc65.html",
+    "passenger_nev_retail_10k_units": 110.9,
+    "retail_yoy_pct": -13.7,
+    "retail_mom_pct": 2.3,
+    "retail_source": "https://auto.gasgoo.com/news/202611/10I70477434C108.shtml",
+    "oct_battery_sales_actual": null,
+    "oct_storage_grid_connection_actual": null
+  },
+  "company_data": {
+    "period": "2026-09-30",
+    "financials_existing_verified_repo_cards": true,
+    "tianqi_9m_parent_profit_cny_100m": 56.0171,
+    "ganfeng_9m_parent_profit_cny_100m": 50.1226,
+    "tianqi_9m_consolidated_ocf_cny_100m": 56.4504,
+    "ganfeng_9m_consolidated_ocf_cny_100m": 22.947,
+    "owner_cash_bridge_complete": false,
+    "valuation_gate": "BLOCKED"
+  },
+  "no_private_accounts": true
+}
