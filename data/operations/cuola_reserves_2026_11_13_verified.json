@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "asset_id": "CN_SICHUAN_YAJIANG_CUOLA_SPODUMENE",
+  "project": "措拉锂辉石矿",
+  "issuer": "天齐锂业",
+  "issuer_ticker": "002466.SZ",
+  "operator_or_right_holder": "四川天齐盛合锂业有限公司",
+  "holding_pct_from_2026H1": 80,
+  "holding_pct_2026_11_13_reconfirmed": false,
+  "reference_date": "2025-12-31",
+  "disclosure_date": "2026-11-13",
+  "indexed_date": "2026-11-17",
+  "regulatory_stage": "resource_reserve_review_and_filing",
+  "mine_stage": "construction_preparation_not_production",
+  "announcement_number": "2026-062",
+  "reserve_review_document": "川矿评储〔2026〕30号",
+  "filing_document": "川自然资储备函〔2026〕129号",
+  "resources": {
+    "definition": "inferred+indicated+measured (探明/控制/推断)",
+    "ore_10k_t": 2508.7,
+    "contained_li2o_t": 308189,
+    "average_li2o_grade_pct": 1.23,
+    "components": [
+      {
+        "kind": "measured_探明",
+        "ore_10k_t": 432.1,
+        "li2o_t": 55691,
+        "grade_pct": 1.29
+      },
+      {
+        "kind": "indicated_控制",
+        "ore_10k_t": 1068,
+        "li2o_t": 139122,
+        "grade_pct": 1.3
+      },
+      {
+        "kind": "inferred_推断",
+        "ore_10k_t": 1008.6,
+        "li2o_t": 113376,
+        "grade_pct": 1.12
+      }
+    ]
+  },
+  "reserves": {
+    "definition": "proved+probable (证实/可信)",
+    "ore_10k_t": 1351.9,
+    "contained_li2o_t": 175292,
+    "grade_pct": 1.3,
+    "components": [
+      {
+        "kind": "proved_证实",
+        "ore_10k_t": 407,
+        "li2o_t": 52526,
+        "grade_pct": 1.29
+      },
+      {
+        "kind": "probable_可信",
+        "ore_10k_t": 944.9,
+        "li2o_t": 122766,
+        "grade_pct": 1.3
+      }
+    ]
+  },
+  "realized": {
+    "ore_mined_t": null,
+    "concentrate_produced_t": null,
+    "concentrate_sold_t": null,
+    "offtake_shipped_t": null,
+    "cash_cost": null,
+    "maintenance_capex": null,
+    "development_capex": null,
+    "lce_recoverable_t": null,
+    "listed_owner_cash": null
+  },
+  "company_disclosure": "The review/filling is not expected to have material impact on current-period earnings; actual mineable volumes may differ from resources and reserves",
+  "sources": [
+    {
+      "source_id": "TQ_CUOLA_2026_11_13_DISCLOSURE",
+      "url": "https://epaper.cs.com.cn/zgzqb/html/2026-11/14/nw.D110000zgzqb_20261114_4-B046.htm",
+      "kind": "issuer_original_announcement_printed_on_designated_disclosure_press",
+      "section": "第一节 评审备案结果; 第二节 风险提示",
+      "date": "2026-11-13"
+    },
+    {
+      "source_id": "TQ_CUOLA_2026_11_13_TABLE_TRANSCRIPTION",
+      "url": "https://www.cfi.net.cn/p20261113000331.html",
+      "kind": "issuer_text_and_table_republication",
+      "section": "资源储量类型表",
+      "date": "2026-11-13"
+    },
+    {
+      "source_id": "TQ_2026H1_SHARE_RELATION",
+      "url": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225522276.PDF",
+      "kind": "issuer_2026H1_resource_map_80pct",
+      "date": "2026-08-28"
+    }
+  ],
+  "comparisons": {
+    "prior_same_scope_reserve_version_checked": false,
+    "resource_and_reserves_overlap": true,
+    "baseline_2026H1_resource_figures_not_automatically_comparable": true
+  },
+  "cash_impact": "not_established",
+  "resource_to_LCE_conversion": "blocked_missing_recovery_and_economic_study",
+  "pdf_bytes_saved": false,
+  "pdf_sha256": null,
+  "personal_accounts_included": false
+}
