@@ -1,0 +1,20 @@
+{
+  "case_id": "repo_scope_audit_2026_11_18",
+  "base_commit": "ca9209da80ea9ecbda69edfbc1e062d6490758ec",
+  "evidence_policy": "Existing repository source-scoped figures reused; no primary-source promotion; not current-day observations.",
+  "checks": [
+    {"id": "SMM_COMPONENT_SUM", "source_path": "data/industry/weekly_2026-11-13_sourced.json", "data_date": "2026-11-12", "component_t": [36011, 33310, 37020, 16303], "reported_total_t": 122644, "calculated_total_t": 122644, "pass": true},
+    {"id": "SMM_DELTA_SUM", "component_delta_t": [309, -1876, 260, -1440], "reported_change_t": -2747, "calculated_change_t": -2747, "pass": true},
+    {"id": "SMM_ROUTES_SUM", "routes_t": [16543, 3609, 5504, 2423], "reported_total_t": 28079, "calculated_total_t": 28079, "pass": true},
+    {"id": "CAUCHARI_ISSUER_FCF", "source_path": "data/operations/cauchari_olaroz_2026q3_verified.json", "period_end": "2026-09-30", "currency": "USD million", "calculation": "94.6 - 2.8 - 19.6 = 72.2", "reported_fcf": 72.2, "calculated": 72.2, "pass": true}
+  ],
+  "blocked_inferences": [
+    {"id": "DEMAND_FROM_INCOMPLETE_BALANCE", "tempting_calculation": "28079 - (-2747) = 30826 tonnes", "output": null, "reason": "Same-sample output, net imports/exports, non-battery uses, losses and adjustments not reconciled; cannot label apparent residual as observed final demand."},
+    {"id": "GFEX_NOV_DECREASE_CAUSE", "output": null, "reason": "Stock change only; expiry calendar, gross registration/cancellation and post-cancellation physical fate not reconciled."},
+    {"id": "GREENBUSHES_END_STOCK", "tempting_calculation": "435151 - 376159 = 58992 tonnes", "output": null, "reason": "Production-sales difference is not validated inventory change without scope/timing/transfers/loss reconciliation."},
+    {"id": "CAUCHARI_DISTRIBUTION_SOURCE", "difference_distribution_minus_fcf_usdm": 27.8, "output": null, "reason": "Distribution above this period FCF does not establish an error or its financing source; opening cash, borrowing and timing unknown."},
+    {"id": "TLEA_TO_TIANQI_CASH", "output": null, "reason": "TLEA receipt cannot be multiplied by ownership to manufacture actual parent cash receipt."}
+  ],
+  "not_a_backtest": true,
+  "private_account_data_included": false
+}

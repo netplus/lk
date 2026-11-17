@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-18",
+  "base_commit": "ca9209da80ea9ecbda69edfbc1e062d6490758ec",
+  "model_id": "lithium_stock_flow_v1",
+  "status": "accounting_prototype_not_calibrated",
+  "protocol": "docs/lithium_stock_flow_model_v1.md",
+  "code": "experiments/lithium_balance_v1/model.py",
+  "tests": {
+    "command": "cd experiments/lithium_balance_v1 && python -m unittest -v test_model",
+    "count": 27,
+    "passed": 27,
+    "data": "synthetic_only",
+    "full_repo_tests_run": false,
+    "full_repo_tests_reason": "public_clone_failed_DNS_github.com"
+  },
+  "gates": {
+    "mass_balance_helpers": "synthetic_tests_passed",
+    "market_calibration": "BLOCKED",
+    "sample_boundary_reconciliation": "BLOCKED",
+    "warehouse_factory_split": "BLOCKED",
+    "receipt_cancellation_cause": "UNKNOWN",
+    "historical_walk_forward": "BLOCKED",
+    "equity_cash_bridge": "BLOCKED",
+    "valuation": "BLOCKED"
+  },
+  "rule_review": {
+    "source_id": "GFEX_2026_29_ATTACHMENT1",
+    "publication_date": "2026-05-28",
+    "applicability": "changed_parts_LC2610_and_later",
+    "pages_1based_visually_checked": [1, 7, 8, 12],
+    "evidence": "issuer_document_mirror_visual_original_host_timed_out",
+    "cancellation_months": [3, 7, 11],
+    "boundary": "last_exchange_trading_day_in_month_not_computed_without_calendar",
+    "re_registration_allowed": "eligible_age_goods_not_withdrawn",
+    "warehouse_factory_separate": true,
+    "later_amendments_exhaustively_ruled_out": false,
+    "source_url": "https://np-newsimg.dfcfw.com/download/A2_cms_f_20260528155936055518?abc9354.pdf%3F=&direct=1",
+    "original_url": "https://www.gfex.com.cn/gfex/tzts/202605/13a2884ed0f04321bf35db5c26af3c86.shtml"
+  },
+  "priority_gaps": [
+    {"id": "LM001", "status": "open", "scope": "warrants", "description": "Need official rule-version calendar, warehouse/factory split, gross registration/cancellation, goods age and post-cancellation fate; net series cannot identify consumption."},
+    {"id": "LM002", "status": "open", "scope": "physical_balances", "description": "Need matched geography/sample/product/period across output, imports, exports, inventory and transformation; residual is not known demand."},
+    {"id": "LM003", "status": "open", "scope": "equity_cash", "description": "Need entity-level dividend/loan cash receipts, financing and capex; equity percentage alone does not establish listed-parent accessible cash."}
+  ],
+  "preserve_existing_quality_issues": true,
+  "private_account_data_included": false,
+  "new_tasks_created": false,
+  "current_market_observations_added": false,
+  "empirical_accuracy_claimed": false
+}
