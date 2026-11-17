@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-17",
+  "cutoff_bjt": "2026-11-17T08:01:40+08:00",
+  "latest_complete_market_date": "2026-11-16",
+  "spot": {
+    "date": "2026-11-16",
+    "publisher": "Mysteel",
+    "quote_window": "morning_not_evening",
+    "battery_grade_range_cny_per_product_t": [
+      87000,
+      91800
+    ],
+    "battery_grade_mid_cny_per_product_t": 89400,
+    "industrial_grade_mid_cny_per_product_t": 87400,
+    "evening_quote_value": null,
+    "evening_table_published": "2026-11-16 16:06",
+    "source_urls": [
+      "https://xny.mysteel.com/",
+      "https://xny.m.mysteel.com/li/m/26111616/7E5C1C9943557B70_abc.html"
+    ],
+    "status": "original_publisher_morning_visible_evening_paywalled_do_not_mix"
+  },
+  "gfex": {
+    "date": "2026-11-16",
+    "main_contract": "LC2701",
+    "main_close_cny_per_t": 88240,
+    "main_settlement_cny_per_t": 88580,
+    "main_volume_lots": 243195,
+    "main_oi_lots": 374250,
+    "previous_date": "2026-11-13",
+    "previous_close": 90580,
+    "previous_settlement": 91580,
+    "previous_oi_lots": 367672,
+    "far_contract": "LC2705",
+    "far_settlement_cny_per_t": 88460,
+    "previous_far_settlement": 91320,
+    "settlement_spread_main_minus_far_cny_per_t": 120,
+    "previous_settlement_spread": 260,
+    "source_urls": [
+      "https://www-old.metal.com/lithium/lc2701",
+      "https://aureliandataservices.com/commodities/lc"
+    ],
+    "evidence": "dated_secondary_GFEX_original_pending"
+  },
+  "warehouse": {
+    "date": "2026-11-16",
+    "registered_lots": 19650,
+    "t_per_lot": 1,
+    "previous_date": "2026-11-13",
+    "previous_registered_lots": 20285,
+    "delta_lots": -635,
+    "source_url": "https://www.99qh.com/article/%E7%A2%B3%E9%85%B8%E9%94%82-1116263",
+    "evidence": "warehouse_detail_secondary_exchange_relay"
+  },
+  "latest_smm_stock": {
+    "date": "2026-11-12",
+    "stock_product_t": 122644,
+    "week_delta_t": -2747,
+    "production_four_routes_t": 28079,
+    "source_url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-13/doc-iniypzqm3762308.shtml",
+    "evidence": "broker_corrob_secondary_not_new"
+  },
+  "tianqi_cuola": {
+    "asset_unique_id": "CN_SICHUAN_YAJIANG_CUOLA_SPODUMENE",
+    "announcement_date": "2026-11-13",
+    "reference_resource_date": "2025-12-31",
+    "status": "reserves_review_filed_project_preconstruction",
+    "controlling_subsidiary": "Sichuan Tianqi Shenghe Lithium",
+    "subsidiary_share_pct_previous_H1": 80,
+    "resources_ore_10k_t": 2508.7,
+    "resources_contained_li2o_t": 308189,
+    "resource_avg_grade_pct": 1.23,
+    "ore_reserves_10k_t": 1351.9,
+    "ore_reserves_contained_li2o_t": 175292,
+    "reserve_avg_grade_pct": 1.3,
+    "production_actual_t": null,
+    "financing_project_capex": null,
+    "review_no": "川矿评储〔2026〕30号",
+    "filing_no": "川自然资储备函〔2026〕129号",
+    "earnings_impact": "issuer_says_no_material_current_period_impact",
+    "source_urls": [
+      "https://epaper.cs.com.cn/zgzqb/html/2026-11/14/nw.D110000zgzqb_20261114_4-B046.htm",
+      "https://www.cfi.net.cn/p20261113000331.html"
+    ],
+    "evidence": "issuer_text_published_in_designated_press_table_transcribed_third_party_not_exchange_pdf",
+    "source_scope": "ore_resource_and_reserves_overlap_no_addition_not_LCE_or_actual_supply"
+  },
+  "financials": {
+    "period": "2026-09-30",
+    "unaudited": true,
+    "tianqi_parent_profit_cny_100m": 56.0171,
+    "tianqi_consolidated_ocf_cny_100m": 56.4504,
+    "ganfeng_parent_profit_cny_100m": 50.1226,
+    "ganfeng_consolidated_ocf_cny_100m": 22.947,
+    "asset_to_parent_cash_bridges_complete": false
+  },
+  "valuation_gate": "BLOCKED",
+  "backtest_gate": "BLOCKED",
+  "no_private_accounts": true
+}
