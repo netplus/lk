@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "market_target_start": "2023-11-04",
   "market_target_end": "2026-11-03",
   "symbols": [
@@ -42,7 +42,7 @@
   "asset_operator_verified_project_periods": 3,
   "latest_asset_operator_source_id": "LAR_2026Q3_RELEASE",
   "latest_asset_operator_period_end": "2026-09-30",
-  "latest_public_incremental_report": "reports/daily_2026-11-17.md",
+  "latest_public_incremental_report": "reports/daily_2026-11-18.md",
   "asset_owner_cash_bridge_complete": false,
   "asset_financing_source_verified": 2,
   "asset_financing_issuers_verified": [
@@ -56,15 +56,15 @@
   "latest_corporate_proposal": "data/corporate/ganfeng_2026_11_06_buyback_proposal.json",
   "latest_public_research_arithmetic_checks": 11,
   "latest_public_research_arithmetic_checks_passed": true,
-  "latest_offline_tests": "not_run_connector_only_2026_11_17",
+  "latest_offline_tests": "2026_11_18_local_arithmetic_9_boundary_2_only_full_repo_not_run_dns_github",
   "smm_2026_11_05_inventory_evidence": "broker_corroborated_secondary_only_not_SMM_original",
   "gfex_2026_11_06_evidence": "secondary_two_sources_minor_one_hand_open_interest_disagreement; warehouse_12_t_disagreement_unresolved",
   "october_mysteel_production_correction": "2026-11-02 previous report 10.77 -> first-party correct 11.77 (2026-11-01), November plan 12.18",
-  "latest_daily_market_date": "2026-11-16",
-  "latest_daily_source_scoped_json": "data/industry/daily_2026-11-16_sourced.json",
-  "latest_daily_spot_evidence": "Mysteel_2026_11_16_morning_89400_original_aggregator_evening_2026_11_16_paywalled_no_quote",
-  "latest_daily_gfex_evidence": "2026_11_16_LC2701_close_88240_settle_88580_volume_243195_oi_374250_LC2705_settle_88460_secondary_SMM_Aurelian_GFEX_original_unchecked",
-  "latest_daily_warehouse_evidence": "2026_11_16_19650lots_minus635_99qh_exchange_relay_original_GFEX_unchecked",
+  "latest_daily_market_date": "2026-11-17",
+  "latest_daily_source_scoped_json": "data/industry/daily_2026-11-17_sourced.json",
+  "latest_daily_spot_evidence": "2026_11_17_Mysteel_morning_89100_battery_original_and_ifind_90400_separate_scope_Mysteel_evening_paywalled",
+  "latest_daily_gfex_evidence": "2026_11_17_LC2701_close93180_settle89980_volume424783_oi349426_LC2705_settle89800_STEELHOME_AURELIAN_secondary_GFEX_original_pending",
+  "latest_daily_warehouse_evidence": "2026_11_17_registered19498_minus152_warehouse_net_location_split_secondary_original_pending",
   "latest_verified_cauchari_operator_asset_source": "data/operations/cauchari_olaroz_2026q3_verified.json",
   "latest_verified_cauchari_operator_announcement_date": "2026-11-10",
   "cauchari_lar_equity_vs_offtake_scopes_checked": true,
@@ -86,5 +86,6 @@
   "latest_cuola_reserve_source": "data/operations/cuola_reserves_2026_11_13_verified.json",
   "latest_cuola_announcement_date": "2026-11-13",
   "latest_cuola_reserve_reference_date": "2025-12-31",
-  "cuola_mine_actual_production_verified": false
+  "cuola_mine_actual_production_verified": false,
+  "sqm_2026q3_at_2026_11_18_08_bjt": "official_schedule_2026_11_18_12_bjt_future_do_not_use"
 }

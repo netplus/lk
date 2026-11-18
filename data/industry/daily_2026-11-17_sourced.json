@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-18",
+  "cutoff_bjt": "2026-11-18T08:01:00+08:00",
+  "latest_market_date": "2026-11-17",
+  "data_status": "dated_secondary_exchange_relay_and_named_primary_quote_different_scopes",
+  "futures": {
+    "date": "2026-11-17",
+    "exchange": "GFEX",
+    "main": "LC2701",
+    "close_cny_per_t": 93180,
+    "prev_close_cny_per_t": 88240,
+    "close_delta_cny_per_t": 4940,
+    "close_delta_pct_direct_calc": 5.6,
+    "settle_cny_per_t": 89980,
+    "prev_settle_cny_per_t": 88580,
+    "settle_delta_cny_per_t": 1400,
+    "volume_lots": 424783,
+    "open_interest_lots": 349426,
+    "prev_oi_lots": 374250,
+    "oi_delta_lots": -24824,
+    "far_contract": "LC2705",
+    "far_settle_cny_per_t": 89800,
+    "spread_01_05_settle_cny_per_t": 180,
+    "prev_spread_settle_cny_per_t": 120,
+    "evidence": "dated_secondary_mirrored_exchange_table",
+    "source_ids": [
+      "STEELHOME_GFEX_20261117",
+      "AURELIAN_GFEX_20261117"
+    ],
+    "source_urls": [
+      "https://www.steelhome.com/detailspage.php?nid=4795197&ntype=n",
+      "https://aureliandataservices.com/commodities/lc"
+    ]
+  },
+  "warrants": {
+    "date": "2026-11-17",
+    "registered_lots": 19498,
+    "lot_t": 1,
+    "prev_registered_lots": 19650,
+    "net_delta_lots": -152,
+    "location_net_delta_lots": {
+      "tiancheng_gaoxin": -180,
+      "cosco_zhenjiang": -32,
+      "sinotrans_longquanyi": 60,
+      "other_reported_locations_total": 0
+    },
+    "gross_registrations": null,
+    "gross_cancellations": null,
+    "post_cancellation_stock_movement": null,
+    "warehouse_factory_split": null,
+    "evidence": "dated_secondary_exchange_warehouse_list_cross_checked_ifind",
+    "source_ids": [
+      "STEELHOME_WARRANT_20261117",
+      "IFIND_WARRANT_20261117"
+    ],
+    "source_urls": [
+      "https://www.steelhome.com/detailspage.php?nid=4795256&ntype=n",
+      "https://news.10jqka.com.cn/20261117/c681906058.shtml"
+    ]
+  },
+  "spot": {
+    "mysteel_morning": {
+      "date": "2026-11-17",
+      "source_time": "10:27_bjt",
+      "battery_range_cny_per_t": [
+        87800,
+        90400
+      ],
+      "battery_mid_cny_per_t": 89100,
+      "industrial_range_cny_per_t": [
+        85800,
+        88400
+      ],
+      "industrial_mid_cny_per_t": 87100,
+      "basis": "morning_tax_included_named_sample",
+      "source_url": "https://xny.mysteel.com/"
+    },
+    "mysteel_evening": {
+      "date": "2026-11-17",
+      "publication_confirmed": true,
+      "battery_mid_cny_per_t": null,
+      "reason": "original_table_paywall",
+      "source_url": "https://xny.m.mysteel.com/li/m/26111716/E748928C4FBEBC14_abc.html"
+    },
+    "ifind": {
+      "date": "2026-11-17",
+      "battery_cny_per_t": 90400,
+      "same_vendor_day_change_cny_per_t": 750,
+      "status": "separate_vendor_not_blended_with_mysteel",
+      "source_url": "https://goodsfu.10jqka.com.cn/20261117/c681924877.shtml"
+    }
+  },
+  "industry_inventory_latest_reused": {
+    "data_date": "2026-11-12",
+    "source_path": "data/industry/weekly_2026-11-13_sourced.json",
+    "new_11_17_inventory_survey": false
+  },
+  "supply_chain_model": {
+    "status": "accounting_prototype_not_empirically_calibrated",
+    "protocol_path": "docs/lithium_stock_flow_model_v1.md",
+    "warrant_november_expiry_interpretation": "possible_not_attributed",
+    "physical_consumption_from_warrant_change": null
+  },
+  "sqm": {
+    "expected_publication_est": "2026-11-17T23:00:00-05:00",
+    "expected_publication_bjt": "2026-11-18T12:00:00+08:00",
+    "released_at_cutoff": false,
+    "source_url": "https://ir.sqm.com/events/event-details/publish-third-quarter-2026-financial-results"
+  },
+  "financials_latest_reused": {
+    "period_end": "2026-09-30",
+    "tianqi_profit_cny_100m": 56.0171,
+    "tianqi_ocf_cny_100m": 56.4504,
+    "ganfeng_profit_cny_100m": 50.1226,
+    "ganfeng_ocf_cny_100m": 22.947,
+    "parent_cash_bridge_complete": false
+  },
+  "verified_full_daily_rows": 0,
+  "valuation_gate": "BLOCKED",
+  "backtest_gate": "BLOCKED",
+  "private_account_data_included": false,
+  "offline_validation": {
+    "numerical_checks": 9,
+    "boundary_guards": 2,
+    "pass": true,
+    "full_repo_tests_run": false,
+    "reason": "github_DNS_resolution_failure_local"
+  }
+}
