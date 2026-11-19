@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-11-19",
+  "cutoff_bjt": "2026-11-19T08:02:35+08:00",
+  "source_id": "SQM_2026Q3_RELEASE_20261117",
+  "issuer": "Sociedad Quimica y Minera de Chile S.A. (SQM)",
+  "report_period": "2026-07-01/2026-09-30",
+  "source_original_url": "https://sqm.gcs-web.com/system/files-encrypted/nasdaq_kms/news/2026/11/17/19-03-32/6-K_3Q2026%20Earnings%20release_eng_VF.pdf",
+  "source_issuer_website": "https://sqm.gcs-web.com/",
+  "issuer_release_dateline": "2026-11-17 Santiago",
+  "first_public_timestamp": "not_independently_confirmed",
+  "available_by_cutoff": true,
+  "page_visual_checked_1based": [
+    1,
+    3,
+    4,
+    9,
+    10
+  ],
+  "source_status": "issuer_original_PDF_selected_pages_visually_verified_not_full_filing_audit",
+  "q3_2026": {
+    "currency": "USD",
+    "units": "million_USD_except_quantities",
+    "consolidated_revenue_musd": 2112,
+    "parent_attributable_net_profit_musd": 544.2,
+    "profit_for_period_before_minority_musd": 596.5,
+    "minority_profit_musd_direct_calc": 52.3,
+    "parent_net_profit_2025q3_musd": 178.4,
+    "parent_net_profit_yoy_pct_reported": 205,
+    "adjusted_ebitda_musd": 1034.9,
+    "lithium_and_derivatives_revenue_musd": 1517,
+    "lithium_lce_sales_thousand_t": 78.9,
+    "lithium_lce_sales_prior_year_thousand_t": 72.9,
+    "novandino_lithium_sales_thousand_t": 73.3,
+    "novandino_lithium_sales_q3_2025_thousand_t": 62.9,
+    "novandino_realized_price_usd_per_kg": 19.6,
+    "novandino_price_qoq_change_pct": -10,
+    "international_lithium_lce_sales_thousand_t": 5.5,
+    "international_attributable_sc6_sales_thousand_physical_t": 28.5,
+    "international_realized_sc6_price_usd_per_physical_t": 2036
+  },
+  "q3_2025_reference": {
+    "profit_for_period_musd": 180,
+    "parent_attributable_profit_musd": 178.4,
+    "minority_profit_musd_direct_calc": 1.6
+  },
+  "nine_months_2026": {
+    "consolidated_revenue_musd": 6340.5,
+    "parent_attributable_net_profit_musd": 1569,
+    "profit_for_period_musd": 1718.6,
+    "minority_profit_musd_direct_calc": 149.6,
+    "lithium_and_derivatives_revenue_musd": 4481.8,
+    "lithium_lce_sales_thousand_t": 232.3,
+    "lithium_sales_prior_2025_thousand_t": 181,
+    "novandino_lithium_sales_thousand_t": 211.5
+  },
+  "guidance": {
+    "type": "issuer_forward_looking_not_realized",
+    "q4_2026_realized_lithium_sales_price": "could_be_substantially_lower_than_q3",
+    "international_mt_holland_attributable_sc6_capacity_target_thousand_t_per_year": 350,
+    "target_period": "2030-2031"
+  },
+  "other_issuer_original": {
+    "interim_dividend_approved_2026_08_25_usd_per_share": 1.43501,
+    "scheduled_payment_2026_09_11": true,
+    "dividend_url": "https://sqm.gcs-web.com/static-files/d489d8cc-ab9a-422d-8eb0-836fd5e378da",
+    "tianqi_actual_q3_cash_receipt_verified": false
+  },
+  "cash_attribution": {
+    "sqm_shareholder_profit_not_total_consolidated_profit": true,
+    "novandino_jv_minority_breakdown_verified": false,
+    "tianqi_equity_accounting_actual_q3_reconciliation_status": "UNKNOWN_TIANQI_Q3_BOOKED_WITH_BLOOMBERG_ESTIMATE_PRIOR_TO_SQM_ACTUAL",
+    "tianqi_parent_newly_received_cash_usdm": null,
+    "tianqi_equity_gain_adjustment_cny": null
+  },
+  "source_pages": [
+    "SQM release printed p1 income",
+    "p3 lithium volume and international scope",
+    "p4 Novandino realized price guidance",
+    "p9 EBITDA/period profit",
+    "p10 balance sheet and minority equity"
+  ],
+  "no_forward_looking_claim_promoted_to_actual": true,
+  "personal_account_data_included": false
+}

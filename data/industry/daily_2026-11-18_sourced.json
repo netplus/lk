@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-19",
+  "cutoff_bjt": "2026-11-19T08:02:35+08:00",
+  "latest_market_date": "2026-11-18",
+  "futures": {
+    "exchange": "GFEX",
+    "active_main_contract": "LC2701",
+    "date": "2026-11-18",
+    "close_cny_per_t": 91520,
+    "previous_close_cny_per_t": 93180,
+    "close_diff_cny_per_t": -1660,
+    "settlement_cny_per_t": 91000,
+    "previous_settlement_cny_per_t": 89980,
+    "settlement_diff_cny_per_t": 1020,
+    "volume_lots": 383415,
+    "previous_volume_lots": 424783,
+    "open_interest_lots": 343103,
+    "previous_open_interest_lots": 349426,
+    "open_interest_diff_lots": -6323,
+    "far_contract": "LC2705",
+    "far_settlement_cny_per_t": 90320,
+    "previous_far_settlement_cny_per_t": 89800,
+    "spread_near_minus_far_settle_cny_per_t": 680,
+    "previous_spread_cny_per_t": 180,
+    "spread_diff_cny_per_t": 500,
+    "source_id": "STEELHOME_GFEX_20261118",
+    "source_url": "https://www.steelhome.com/detailspage.php?nid=4795906&ntype=n",
+    "source_published_at": "2026-11-18T15:42:29+08:00",
+    "evidence_status": "dated_secondary_reproduction_of_exchange_table_official_original_pending"
+  },
+  "warrants": {
+    "date": "2026-11-18",
+    "registered_lots": 19108,
+    "previous_registered_lots": 19498,
+    "lot_tonnes": 1,
+    "net_delta_lots": -390,
+    "location_net_delta_lots": {
+      "tiancheng_gaoxin": -380,
+      "sinotrans_longquanyi": -30,
+      "cosco_zhenjiang": 20,
+      "other_listed_net": 0
+    },
+    "gross_registrations": null,
+    "gross_cancellations": null,
+    "post_cancellation_actual_outflow_t": null,
+    "warehouse_factory_split_verified": false,
+    "expiry_rule_share": null,
+    "source_id": "STEELHOME_GFEX_WARRANT_20261118",
+    "source_url": "https://www.steelhome.com/detailspage.php?nid=4795958&ntype=n",
+    "source_time": "2026-11-18T16:00:50+08:00",
+    "independent_relay_url": "https://www.cnfin.com/kx/detail/20261118/4497143_1.html",
+    "evidence_status": "dated_two_secondary_relays_not_official_raw"
+  },
+  "spot": {
+    "date": "2026-11-18",
+    "vendor": "Mysteel",
+    "period": "evening_1630",
+    "grade": "battery_lithium_carbonate_ge_99.5pct",
+    "quote_cny_per_t": [
+      90000,
+      93200
+    ],
+    "mid_cny_per_t": 91600,
+    "mid_delta_cny_per_t": 1200,
+    "prior_same_vendor_mid_cny_per_t_derived": 90400,
+    "tax_and_delivery": "tax_included_bank_transfer_delivered_quote",
+    "source_homepage_url": "https://xny.mysteel.com/",
+    "source_form_url": "https://xny.m.mysteel.com/li/m/26111816/D4C69CF24E383AFB_abc.html",
+    "evidence_status": "vendor_homepage_first_party_visible_snapshot_and_company_reported_delta"
+  },
+  "social_inventory": {
+    "latest_verified_sample_date": "2026-11-12",
+    "SMM_broker_corroborated_t": 122644,
+    "Mysteel_latest_direct_2026_11_11_t": 94290,
+    "new_same_boundary_data_2026_11_18_verified": false,
+    "unknown_not_zero": true
+  },
+  "unavailable": {
+    "new_same_sample_salt_inventory": null,
+    "new_11_18_china_imports": null,
+    "new_gfex_exchange_original": null,
+    "registered_cancellations_cause": null,
+    "SC6_same_day_verified_price": null,
+    "hydroxide_same_day_verified_price": null,
+    "terminal_lithium_consumption": null
+  },
+  "boundary_policy": "warrants_not_consumption; physical_vs_title; regional_survey_not_combined; no_spot_futures_basis_assumed_synchronous",
+  "personal_account_data_included": false
+}
