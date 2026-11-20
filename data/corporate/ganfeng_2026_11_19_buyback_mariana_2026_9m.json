@@ -53,11 +53,11 @@
       "asof_2026_09_30_assets_usd": 1154215373.08,
       "liabilities_usd": 744469671.04,
       "equity_usd": 409745702.04,
-      "assets_to_liabilities_pct": 64.5,
       "project_production_t": null,
       "sales_t": null,
       "actual_parent_cash_received_usd": null,
-      "notes": "LMA legal entity 9m revenues are not verified project sales volume or listed parent free cash; 2025 and 2026 scopes are FY vs 9 months."
+      "notes": "LMA legal entity 9m revenues are not verified project sales volume or listed parent free cash; 2025 and 2026 scopes are FY vs 9 months.",
+      "liabilities_to_assets_pct": 64.5
     },
     {
       "id": "GANFENG_LMA_MARGIN_PLEDGE_2026_11_20",
