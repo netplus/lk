@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "as_of_bjt": "2026-11-20T07:55:13+08:00",
+  "events": [
+    {
+      "id": "GANFENG_2026_11_19_BOARD_BUYBACK",
+      "issuer": "江西赣锋锂业集团股份有限公司",
+      "code": "002460",
+      "board_approved_on": "2026-11-19",
+      "document_dateline": "2026-11-20",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225680136.PDF",
+      "document": "临2026-119",
+      "pages_visually_checked": [
+        1,
+        2
+      ],
+      "status": "board_approved_not_executed",
+      "amount_cny_min": 200000000,
+      "amount_cny_max": 400000000,
+      "ceiling_per_share_cny": 57.47,
+      "potential_shares_low_at_ceiling": 3480077,
+      "potential_shares_high_at_ceiling": 6960153,
+      "share_fraction_range_pct": [
+        0.17,
+        0.33
+      ],
+      "approval_no_shareholder_meeting_required": true,
+      "execution_window": "within_three_months_board_approval",
+      "funding": "cash_or_external_funds_including_possible_share_buyback_loan",
+      "intended_disposition": "resale_by_auction_after_12_months_and_within_3_years; only_unsold_cancelled",
+      "no_purchased_shares_verified": true,
+      "short_note": "Not an irrevocable retirement or dividend, funds if used compete with capex/debt service."
+    },
+    {
+      "id": "GANFENG_LMA_MARIANA_2026_9M",
+      "issuer": "赣锋锂业",
+      "asset_id": "ARG_SALTA_MARIANA_LMA",
+      "document": "临2026-122",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225680001.PDF",
+      "document_dateline": "2026-11-20",
+      "pages_visually_checked": [
+        2,
+        3
+      ],
+      "status": "issuer_filing_actual_unaudited",
+      "LMA_equity_control": "Ganfeng International via wholly owned vehicles 20% Mariana Lithium Ltd + 80% GFL Lithium Netherlands",
+      "LMA_project_rights": "Mariana lithium-potassium brine mineral 100% interest",
+      "currency": "USD",
+      "FY2025_revenue_usd": 0,
+      "FY2025_profit_before_tax_usd": -27976231.23,
+      "YTD2026_9m_revenue_usd": 46825345.86,
+      "YTD2026_9m_profit_before_tax_usd": -1751606.72,
+      "asof_2026_09_30_assets_usd": 1154215373.08,
+      "liabilities_usd": 744469671.04,
+      "equity_usd": 409745702.04,
+      "assets_to_liabilities_pct": 64.5,
+      "project_production_t": null,
+      "sales_t": null,
+      "actual_parent_cash_received_usd": null,
+      "notes": "LMA legal entity 9m revenues are not verified project sales volume or listed parent free cash; 2025 and 2026 scopes are FY vs 9 months."
+    },
+    {
+      "id": "GANFENG_LMA_MARGIN_PLEDGE_2026_11_20",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-11-20/1225680001.PDF",
+      "document": "临2026-122",
+      "pages_visually_checked": [
+        1,
+        2,
+        3
+      ],
+      "source_dateline": "2026-11-20",
+      "status": "pledge_contract_disclosed",
+      "pledged_margin_cny": 40000000,
+      "pledge_term_months": 84,
+      "beneficiary": "Litio Minera Argentina S.A.",
+      "LMA_existing_parent_guarantees_cny": 600000000,
+      "total_company_group_outstanding_guarantees_cny": 23332379200,
+      "guarantee_percent_latest_audited_equity": 51.68,
+      "disclosure_note": "Do not double-add margin 40m to reported 600m guarantees absent overlap reconciliation; pledge not booked as expensed or default."
+    }
+  ],
+  "private_accounts_included": false
+}

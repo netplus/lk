@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-20",
+  "cutoff_bjt": "2026-11-20T07:55:13+08:00",
+  "market_date": "2026-11-19",
+  "time_policy": "No November 20 close or spot yet; no unverified intra-day numbers",
+  "industry": {
+    "salt_market": {
+      "mysteel_evening": {
+        "date": "2026-11-19",
+        "price_mid_battery_cny_per_t": 91850,
+        "price_range_battery_cny_per_t": [
+          90200,
+          93500
+        ],
+        "mid_change_same_vendor_cny_per_t": 250,
+        "quote_around": "15:52 BJT",
+        "evidence_status": "publisher_text_first_party_indexed",
+        "source_url": "https://www.mysteel.com/hot/1315952.html"
+      },
+      "mysteel_morning": {
+        "date": "2026-11-19",
+        "price_mid_battery_cny_per_t": 91150,
+        "grade": "Li2CO3>=99.5%",
+        "period": "morning_not_futures_close",
+        "source_url": "https://xny.mysteel.com/"
+      },
+      "hydroxide": {
+        "date": "2026-11-19",
+        "vendor": "Mysteel",
+        "battery_coarse_lioh_ge_56_5_mid_cny_per_t": 79000,
+        "battery_micro_mid_cny_per_t": 83500,
+        "evidence_status": "publisher_homepage"
+      },
+      "sc6_price": {
+        "date": "2026-11-19",
+        "grade": "SC6",
+        "value": null,
+        "source_url": "https://xny.m.mysteel.com/li/m/26111916/1A69029888EDC774_abc.html",
+        "reason": "publisher quotation numeric values behind login; no substitute"
+      }
+    },
+    "GFEX": {
+      "date": "2026-11-19",
+      "main_contract": "LC2701",
+      "main_close_cny_t": 91500,
+      "previous_main_close_cny_t": 91520,
+      "main_settle_cny_t": 90840,
+      "previous_main_settle_cny_t": 91000,
+      "main_volume_lots": 330709,
+      "previous_main_volume_lots": 383415,
+      "main_oi_lots": 342568,
+      "previous_main_oi_lots": 343103,
+      "far_contract": "LC2705",
+      "far_settle_cny_t": 89420,
+      "previous_far_settle_cny_t": 90320,
+      "near_minus_far_settle_cny_t": 1420,
+      "previous_near_minus_far_settle_cny_t": 680,
+      "evidence_status": "dated_secondary_exchange_relay_original_GFEX_pending",
+      "source_url": "https://www.steelhome.com/detailspage.php?nid=4796826&ntype=n"
+    },
+    "warrants": {
+      "date": "2026-11-19",
+      "total_lots": 18674,
+      "previous_lots": 19108,
+      "lot_tonnes": 1,
+      "delta_lots": -434,
+      "location_changes_lots": {
+        "xiangyu_shanghai": -91,
+        "tiancheng_gaoxin": -118,
+        "cosco_zhenjiang": -95,
+        "yongxing": -1,
+        "rongjie_group": -90,
+        "bangpu_foshan": -2,
+        "bangpu_yichang": -37
+      },
+      "gross_registrations": null,
+      "gross_cancellations": null,
+      "physical_stock_after_cancellation": null,
+      "warehouse_factory_split_confirmed": false,
+      "expiry_share": null,
+      "source_url": "https://www.steelhome.com/detailspage.php?nid=4796899&ntype=n",
+      "cross_check_url": "https://www.99qh.com/article/1117577",
+      "evidence_status": "two_dated_secondary_exchange_relay_tables"
+    },
+    "SMM_weekly": {
+      "data_period": "week_to_2026-11-19",
+      "published_at": "2026-11-19T16:46:28+08:00",
+      "output_direction": "up",
+      "raw_spodumene_refinery_direction": "up",
+      "lepidolite_refinery_direction": "up",
+      "brine_and_slag_direction": "down",
+      "recycling_direction": "slightly_up",
+      "plant_inventory_direction": "down",
+      "materials_inventory_direction": "down",
+      "trader_inventory_direction": "slightly_up",
+      "overall_inventory_direction": "down",
+      "weekly_production_t": null,
+      "total_sample_stock_t": null,
+      "source_url": "https://news.smm.cn/live/detail/42VURD3MF6YP5DJHXYGEVF5E2WLQ7MFKOVJIIGA",
+      "evidence_status": "SMM_publisher_original_qualitative_only"
+    },
+    "Mysteel_salt_weekly": {
+      "sample_date": "2026-11-18",
+      "published_at": "2026-11-19T08:41:00+08:00",
+      "total_stock_t": 93200,
+      "weekly_change_t": -1090,
+      "salt_plant_stock_t": 21060,
+      "salt_plant_change_t": 510,
+      "trader_stock_t": 31640,
+      "trader_change_t": -820,
+      "materials_and_terminal_stock_t": 40500,
+      "materials_change_t": -780,
+      "source_url": "https://xny.mysteel.com/a/26111908/3D0C1871D5D12C23.html",
+      "evidence_status": "Mysteel_publisher_original_survey_sample_not_entire_China"
+    },
+    "Mysteel_ore_weekly": {
+      "sample_date": "2026-11-19",
+      "port_physical_stock_t": 390000,
+      "port_change_t": 5000,
+      "port_source": "https://xny.mysteel.com/a/26111918/1AA488663643A509.html",
+      "trader_33_sample_stock_t": 234000,
+      "trader_change_t": 8000,
+      "tradeable_trader_stock_t": 176000,
+      "tradeable_change_t": 1000,
+      "trader_source": "https://xny.mysteel.com/a/26111918/2010F176BA8DE668.html",
+      "nonadditivity_note": "port physical stock and trader title stock may overlap"
+    },
+    "battery_alliance_oct": {
+      "period": "2026-10",
+      "published_at": "2026-11-19",
+      "total_power_storage_output_gwh": 245.1,
+      "total_power_storage_sales_gwh": 230.4,
+      "total_sales_mom_pct": 3.4,
+      "power_sales_gwh": 159.3,
+      "power_sales_mom_pct": 6.7,
+      "storage_sales_gwh": 71.1,
+      "storage_sales_mom_pct": -3.3,
+      "domestic_power_installed_gwh": 99.4,
+      "domestic_power_installed_mom_pct": 14,
+      "domestic_power_installed_yoy_pct": 18.2,
+      "domestic_lfp_installed_gwh": 86.3,
+      "domestic_lfp_installed_yoy_pct": 27.8,
+      "export_power_storage_gwh": 46.1,
+      "export_in_sales": true,
+      "installed_subset_not_add_to_sales": true,
+      "source_url": "https://www.jwview.com/jingwei/11-19/697681.shtml",
+      "evidence_status": "named_alliance_release_second_hand_full_figures_official_account_direct_not_yet_fetched"
+    }
+  },
+  "gate_note": "No aggregate or inferred true demand from mismatched samples; warrants not physical consumption; three-year OHLCV remains blocked",
+  "personal_accounts_included": false
+}
