@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-23",
+  "cutoff_bjt": "2026-11-23T07:58:00+08:00",
+  "last_complete_market_date": "2026-11-20",
+  "market_close_2026_11_23": null,
+  "industry": {
+    "spot_mysteel": {
+      "period": "2026-11-20 evening",
+      "grade": "Li2CO3>=99.5%",
+      "currency": "CNY",
+      "unit": "yuan_per_t",
+      "battery_range": [
+        89700,
+        93500
+      ],
+      "battery_mid": 91600,
+      "previous_evening_mid": 91850,
+      "weekly_2026_11_13_mid": 92150,
+      "industrial_evening_mid": 89600,
+      "hydroxide_coarse_56_5_mid": 79750,
+      "hydroxide_micro_56_5_mid": 84250,
+      "source": "https://xny.mysteel.com/",
+      "evidence": "publisher_first_party_display_same_quote_time"
+    },
+    "spot_smm": {
+      "date": "2026-11-20",
+      "battery_range": [
+        89800,
+        93100
+      ],
+      "battery_mid": 91450,
+      "industrial_mid": 88450,
+      "source": "https://news.smm.cn/live/detail/RRGOIXBKOST4L3Q54CI6T7K2F4RZNT2GC6LUCIQ",
+      "evidence": "publisher_first_party_report_separate_from_Mysteel_no_cross_vendor_return"
+    },
+    "sc6": {
+      "date": "2026-11-20",
+      "delivery": "CIF_China",
+      "origin": "Australia",
+      "dry_grade_pct": 6,
+      "source": "https://xny.mysteel.com/a/26112018/4D09E2F9EAFFEEBA.html",
+      "range_usd_per_physical_t": [
+        1210,
+        1240
+      ],
+      "mid_usd_per_physical_t": 1225,
+      "evidence": "publisher_first_party_quote_not_realized_Greenbushes_price"
+    },
+    "outside_spodumene_refinery_cost": {
+      "period": "2026-11-19",
+      "value": 90080,
+      "unit": "CNY/t_Li2CO3",
+      "profit": 1770,
+      "profit_unit": "CNY/t",
+      "source": "https://xny.mysteel.com/a/26112016/05DA4AD68BA16942.html",
+      "evidence": "Mysteel_methodology_specific_spodumene_current_cost_not_full_industry_floor"
+    },
+    "SMM_week": {
+      "sample_date": "2026-11-19",
+      "public_relay_date": "2026-11-20",
+      "output_routes_t": {
+        "spodumene": 16794,
+        "lepidolite": 3719,
+        "brine": 5454,
+        "recycling": 2452
+      },
+      "output_routes_weekly_change_t": {
+        "spodumene": 251,
+        "lepidolite": 110,
+        "brine": -50,
+        "recycling": 29
+      },
+      "total_output_t": 28419,
+      "total_output_change_t": 340,
+      "inventory_scope": "SMM_expanded_custody_title_sample_not_national_physical",
+      "sample_stock_t": {
+        "upstream": 35492,
+        "cathode": 31262,
+        "traders": 37530,
+        "cells_and_other": 15703
+      },
+      "stock_change_t": {
+        "upstream": -519,
+        "cathode": -2048,
+        "traders": 510,
+        "cells_and_other": -600
+      },
+      "total_stock_t": 119987,
+      "total_stock_change_t": -2657,
+      "same_period_net_import_export_and_final_use_verified": false,
+      "source": "https://futures.cngold.org/c/2026-11-20/c10892635.html",
+      "corroboration": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/11/rptid/848587380106/index.phtml",
+      "evidence": "named_broker_secondary_relay_SMM_original_full_table_not_obtained"
+    },
+    "Mysteel_stock": {
+      "sample_date": "2026-11-18",
+      "publication_date": "2026-11-19",
+      "total_t": 93200,
+      "change_t": -1090,
+      "plant_t": 21060,
+      "plant_change_t": 510,
+      "trader_t": 31640,
+      "trader_change_t": -820,
+      "materials_t": 40500,
+      "materials_change_t": -780,
+      "source": "https://xny.mysteel.com/a/26111908/3D0C1871D5D12C23.html",
+      "evidence": "publisher_original_survey_different_sample_do_not_add_or_average_with_SMM"
+    },
+    "GFEX": {
+      "date": "2026-11-20",
+      "main": "LC2701",
+      "main_close_cny_t": 90040,
+      "main_prev_close_cny_t": 91500,
+      "main_settle_cny_t": 90760,
+      "main_prev_settle_cny_t": 90840,
+      "main_volume_lots": 387210,
+      "main_open_interest_lots": 326054,
+      "main_oi_change_lots": -16514,
+      "far": "LC2705",
+      "far_settle_cny_t": 89440,
+      "far_prev_settle_cny_t": 89420,
+      "near_minus_far_settle_cny_t": 1320,
+      "prior_near_minus_far_cny_t": 1420,
+      "date_warrant": "2026-11-20",
+      "registered_warrant_t": 19174,
+      "previous_warrant_t": 18674,
+      "net_change_t": 500,
+      "warehouse_net_change_t": {
+        "wailong_longquanyi": 40,
+        "tiancheng_gaoxin": -60,
+        "cosco_zhenjiang": 520
+      },
+      "gross_registration_t": null,
+      "gross_cancellation_t": null,
+      "physical_outbound_t": null,
+      "november_expiry_fraction": null,
+      "source": "https://www.steelhome.com/detailspage.php?nid=4797973&ntype=n",
+      "source_previous": "https://www.steelhome.com/detailspage.php?nid=4796826&ntype=n",
+      "warrant_source": "https://www.99qh.com/article/1117927",
+      "evidence": "dated_exchange_secondary_relay_unverified_official_primary; no net_warrant_equals_consumption_inference"
+    },
+    "October_battery_demand": {
+      "data_date": "2026-10",
+      "publication_date": "2026-11-19",
+      "power_storage_production_gwh": 245.1,
+      "power_storage_sales_gwh": 230.4,
+      "power_sales_gwh": 159.3,
+      "storage_sales_gwh": 71.1,
+      "domestic_power_installed_gwh": 99.4,
+      "source": "https://www.jwview.com/jingwei/11-19/697681.shtml",
+      "evidence": "named_monthly_alliance_release_secondary_original_needed",
+      "aggregation_warning": "power+storage sales already total; domestic installation is not an extra shipment"
+    }
+  },
+  "evidence_categories": [
+    "confirmed_source_record",
+    "direct_arithmetic",
+    "reasoned_inference",
+    "unverified"
+  ],
+  "gate_note": "Not sufficient to infer full-chain demand from SMM stock, production and separate sample. No 3-year backtest or normalized valuation.",
+  "personal_account_data_included": false
+}
