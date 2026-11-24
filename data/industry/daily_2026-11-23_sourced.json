@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-24",
+  "cutoff_bjt": "2026-11-24T08:01:07+08:00",
+  "customs_october": {
+    "period": "2026-10",
+    "publication_date": "2026-11-20",
+    "source_mineral": "https://news.smm.cn/news/5Y3RU3H6IMPT5LV7KCFZS4NRFGTQU5LPHF2IUDA",
+    "source_salt": "https://news.smm.cn/news/JDWRGFBKSKMZGPKGLAAZM74KVUWDLPIJOUVQ2KA",
+    "source_corroboration": "https://list1.m.mysteel.com/zhishi/lhs2026nzs.html",
+    "evidence": "customs_facts_relayed_by_SMM; SMM_LCE_model_estimate_not_customs_observation; original_customs_extraction_pending",
+    "ore_physical_t": 1004300,
+    "ore_physical_mom_pct": 3.53,
+    "concentrate_t": 673100,
+    "raw_ore_t": 331200,
+    "raw_ore_share_pct": 32.98,
+    "prior_raw_ore_share_pct": 29,
+    "smm_estimated_contained_LCE_t": 80200,
+    "smm_estimated_LCE_mom_pct": -1.45,
+    "carbonate_import_t": 31183,
+    "carbonate_export_t": 824,
+    "carbonate_net_import_t_direct_calculation": 30359,
+    "sulfate_import_physical_t": 18218,
+    "sulfate_LCE": null,
+    "warning": "Do not sum ore/intermediate/finished salt; grade/moisture/recovery not reconciled."
+  },
+  "market": {
+    "date": "2026-11-23",
+    "warrants_total_lots": 19419,
+    "net_change_lots": 245,
+    "source": "https://www.99qh.com/article/%E7%A2%B3%E9%85%B8%E9%94%82-1118477",
+    "evidence": "exchange_secondary_relay_original_pending",
+    "gross_registrations": null,
+    "gross_cancellations": null,
+    "physical_outbound": null,
+    "market_sources_reference_only": [
+      "https://www.steelhome.com/detailspage.php?nid=4798878&ntype=n",
+      "https://qhweb.eastmoney.com/news/202611233937308621.html",
+      "https://hq.smm.cn/new-energy/category/202212050001",
+      "https://xny.mysteel.com/"
+    ],
+    "market_note": "Market report source links only; vendor redistribution permission not verified, no vendor daily table republished. Same-day SMM numerical quote not accessible; official GFEX raw not retrieved."
+  },
+  "checks_passed": 15,
+  "private_account_data_included": false
+}

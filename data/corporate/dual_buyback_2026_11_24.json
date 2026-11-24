@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "report_date": "2026-11-24",
+  "tianqi": {
+    "notice": "2026-064",
+    "event_date": "2026-11-23",
+    "signed_date": "2026-11-24",
+    "public_relay": "2026-11-23 20:16:55 BJT",
+    "source": "https://www.cfi.net.cn/p20261123002228.html",
+    "evidence": "issuer_notice_text_relay; original_pdf_not_obtained",
+    "status": "chair_proposal_not_board_approval",
+    "buyback_min_cny": 400000000,
+    "buyback_max_cny": 800000000,
+    "funding": "own_or_raised",
+    "purpose": "cancellation_or_value_maintenance_or_incentives_pending_board",
+    "actual_repurchase_cny": null,
+    "price_ceiling_cny": null
+  },
+  "ganfeng": {
+    "notice": "2026-125",
+    "signed_date": "2026-11-24",
+    "public_relay": "2026-11-23 19:27:10 BJT",
+    "source": "https://static.cninfo.com.cn/finalpage/2026-11-24/1225684645.PDF",
+    "pages_visual_checked": [
+      1,
+      2
+    ],
+    "evidence": "issuer_pdf_visually_checked",
+    "status": "bank_commitment_not_loan_draw",
+    "approved_buyback_min_cny": 200000000,
+    "approved_buyback_max_cny": 400000000,
+    "loan_ceiling_cny": 360000000,
+    "term_ceiling_months": 36,
+    "lender": "ICBC Xinyu Gaoxin branch",
+    "actual_draw_cny": null,
+    "actual_repurchase_cny": null,
+    "loan_rate": null
+  },
+  "hydroxide_delivery": {
+    "notice": "GFEX 2026 73",
+    "publication_date": "2026-11-20",
+    "source": "https://www.ghlsqh.com.cn/news/show-29291.html",
+    "tianqi_notice": "https://static.cninfo.com.cn/finalpage/2026-11-24/1225684916.PDF",
+    "evidence": "exchange_notice_relay_and_issuer_pdf_text; Tianqi PDF screenshot failed",
+    "designated_factory": [
+      "Tianqi Lithium",
+      "Fengcheng Ganfeng Lithium"
+    ],
+    "delivery_start": "2027-05-01",
+    "actual_delivery": null
+  },
+  "private_account_data_included": false
+}
