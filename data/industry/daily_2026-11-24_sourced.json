@@ -1,0 +1,35 @@
+{
+  "period": "2026-11-24",
+  "publication_date": "2026-11-24",
+  "retrieval_cutoff": "2026-11-25 08:01:06 +08:00",
+  "scope": "source references only for vendor quotes; exchange daily official original not obtained; sources may restrict redistribution",
+  "sources": [
+    {
+      "id": "MYSTEEL_RELAY_20261124",
+      "url": "https://qhweb.eastmoney.com/news/202611243938460859.html",
+      "table": "晚盘锂盐",
+      "status": "secondary"
+    },
+    {
+      "id": "STEELHOME_20261124",
+      "url": "https://www.steelhome.com/detailspage.php?nid=4799732&ntype=n",
+      "table": "GFEX daily",
+      "status": "secondary"
+    },
+    {
+      "id": "STEELHOME_20261124_2",
+      "url": "https://www.steelhome.com/detailspage.php?nid=4799557&ntype=n",
+      "status": "secondary"
+    },
+    {
+      "id": "99QH_20261124",
+      "url": "https://www.99qh.com/article/%E7%A2%B3%E9%85%B8%E9%94%82-1118924",
+      "status": "secondary exchange warrant relay"
+    }
+  ],
+  "warrants_t": 19253,
+  "warrants_net_change_t": -166,
+  "rule_context": "November cancellation; no physical flow/registration gross identified",
+  "numeric_quote_redistribution": "not cleared; source URLs only",
+  "smm_quote": null
+}

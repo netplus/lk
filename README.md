@@ -1,6 +1,6 @@
 # lk — 锂资源产业研究
 
-**最新公开研究：** [2026-11-24 增量简报](reports/daily_2026-11-24.md)；[产业来源底表](data/industry/daily_2026-11-23_sourced.json)；[双公司事项](data/corporate/dual_buyback_2026_11_24.json)；[论点增量](research/theses/daily_2026-11-24.md)。10月进口实物吨增而SMM估算LCE降；双公司回购进展不等于实际执行。估值与回测门禁仍BLOCKED。
+**最新公开研究：** [2026-11-25 增量简报](reports/daily_2026-11-25.md)；[产业来源底表](data/industry/daily_2026-11-24_sourced.json)；[双公司资本事项](data/corporate/dual_capital_2026_11_25.json)；[现金补录](data/financials/dual_2026Q3_cash_bridge_supplement_2026_11_25.json)；[论点增量](research/theses/daily_2026-11-25.md)。估值与回测门禁仍BLOCKED。
 
 天齐锂业（002466.SZ）、赣锋锂业（002460.SZ）。资源供需与成本→实际资产运营→权益利润/现金→估值及反证；不扩展成全新能源或自动交易。
 
