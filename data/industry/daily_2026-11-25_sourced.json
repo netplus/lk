@@ -1,0 +1,39 @@
+{
+  "period": "2026-11-25",
+  "retrieval_cutoff": "2026-11-26T08:01:12+08:00",
+  "sources": [
+    {
+      "url": "https://www.steelhome.com/detailspage.php?nid=4800244&ntype=n",
+      "published": "2026-11-25 15:35:27",
+      "table": "逐合约行情"
+    },
+    {
+      "url": "https://www.steelhome.com/detailspage.php?nid=4800605&ntype=n",
+      "published": "2026-11-25 17:40:01"
+    },
+    {
+      "url": "https://www.steelhome.com/detailspage.php?nid=4800301&ntype=n",
+      "published": "2026-11-25 16:00:53"
+    },
+    {
+      "url": "https://news.10jqka.com.cn/20261125/c682201643.shtml"
+    },
+    {
+      "url": "https://yyyyyyyy.cloud/p/LC/",
+      "snapshot": "2026-11-25"
+    },
+    {
+      "url": "https://www.cnfin.com/kx/detail/20261125/4499988_1.html"
+    },
+    {
+      "url": "https://xny.mysteel.com/"
+    }
+  ],
+  "evidence": "secondary exchange relays; no raw exchange data",
+  "warrants_t": 13476,
+  "warrants_net_change_t": -5777,
+  "rule_context": "November cancellation; actual gross flow and physical fate unknown",
+  "vendor_quote_redistribution": "not cleared; links only",
+  "smm_quote": null,
+  "weekly_physical_balance_updated": false
+}

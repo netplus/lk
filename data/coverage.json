@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-25",
+  "as_of": "2026-11-26",
   "market_target_start": "2023-11-04",
   "market_target_end": "2026-11-03",
   "symbols": [
@@ -42,7 +42,7 @@
   "asset_operator_verified_project_periods": 3,
   "latest_asset_operator_source_id": "LAR_2026Q3_RELEASE",
   "latest_asset_operator_period_end": "2026-09-30",
-  "latest_public_incremental_report": "reports/daily_2026-11-25.md",
+  "latest_public_incremental_report": "reports/daily_2026-11-26.md",
   "asset_owner_cash_bridge_complete": false,
   "asset_financing_source_verified": 2,
   "asset_financing_issuers_verified": [
@@ -60,11 +60,11 @@
   "smm_2026_11_05_inventory_evidence": "broker_corroborated_secondary_only_not_SMM_original",
   "gfex_2026_11_06_evidence": "secondary_two_sources_minor_one_hand_open_interest_disagreement; warehouse_12_t_disagreement_unresolved",
   "october_mysteel_production_correction": "2026-11-02 previous report 10.77 -> first-party correct 11.77 (2026-11-01), November plan 12.18",
-  "latest_daily_market_date": "2026-11-24",
-  "latest_daily_source_scoped_json": "data/industry/daily_2026-11-24_sourced.json",
-  "latest_daily_spot_evidence": "Mysteel relay; SMM same-day reliable numeric missing",
-  "latest_daily_gfex_evidence": "secondary source links only; raw pending",
-  "latest_daily_warehouse_evidence": "secondary warrant relay 19253 t; physical flow unknown",
+  "latest_daily_market_date": "2026-11-25",
+  "latest_daily_source_scoped_json": "data/industry/daily_2026-11-25_sourced.json",
+  "latest_daily_spot_evidence": "Mysteel early survey; SMM numeric missing",
+  "latest_daily_gfex_evidence": "secondary links; raw pending",
+  "latest_daily_warehouse_evidence": "secondary 13476t; net -5777; cause unknown",
   "latest_verified_cauchari_operator_asset_source": "data/operations/cauchari_olaroz_2026q3_verified.json",
   "latest_verified_cauchari_operator_announcement_date": "2026-11-10",
   "cauchari_lar_equity_vs_offtake_scopes_checked": true,
@@ -103,17 +103,19 @@
   "latest_smm_inventory": "2026_11_19_SMM_title_scope_119987t_down2657_named_broker_secondary_original_full_table_pending",
   "latest_smm_weekly_production": "2026_11_19_SMM_four_routes_28419t_plus340_named_broker_secondary",
   "latest_mysteel_inventory": "2026_11_18_93200t_down1090_publisher_original",
-  "latest_GFEX_warehouse": "2026-11-24_19253t_secondary",
-  "latest_gfex_contract": "LC2701_2026-11-24_secondary",
+  "latest_GFEX_warehouse": "2026-11-25_13476t_secondary",
+  "latest_gfex_contract": "LC2701_2026-11-25_secondary",
   "latest_spodumene_cif6": "2026_11_20_Mysteel_1210_1240_USD_per_physical_t_CIFChina",
-  "latest_research_theses_file": "research/theses/daily_2026-11-25.md",
+  "latest_research_theses_file": "research/theses/daily_2026-11-26.md",
   "latest_customs_october_source": "data/industry/daily_2026-11-23_sourced.json",
   "latest_dual_buyback_and_hydroxide_delivery": "data/corporate/dual_buyback_2026_11_24.json",
   "latest_cash_bridge_supplement": "data/financials/dual_2026Q3_cash_bridge_supplement_2026_11_25.json",
-  "latest_corporate_capital_source": "data/corporate/dual_capital_2026_11_25.json",
+  "latest_corporate_capital_source": "data/corporate/dual_capital_2026_11_26.json",
   "rolling_market_target": {
-    "start": "2023-11-25",
-    "end": "2026-11-24",
-    "status": "calendar observation window target; exchange calendar not verified; no change to initial baseline"
-  }
+    "start": "2023-11-26",
+    "end": "2026-11-25",
+    "status": "calendar observation window target; exchange calendar not verified; initial baseline retained"
+  },
+  "latest_shaotangou_appraisal": "data/corporate/dual_capital_2026_11_26.json",
+  "latest_ganfeng_guarantee": "data/corporate/dual_capital_2026_11_26.json"
 }

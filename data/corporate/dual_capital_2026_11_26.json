@@ -1,0 +1,114 @@
+{
+  "retrieval_cutoff": "2026-11-26T08:01:12+08:00",
+  "TQ": {
+    "asset_id": "CN_SHAOTANGOU_RUNFENG",
+    "source_id": "TQ_SHAOTANGOU_APPRAISAL_2026_107",
+    "url": "https://file.finance.sina.com.cn/211.154.219.97:9494/MRGG/CNSESZ_STOCK/2026/2026-11/2026-11-25/12722507.PDF",
+    "publication_date": "2026-11-25",
+    "valuation_date": "2026-06-30",
+    "printed_pages_visually_checked": [
+      1,
+      2,
+      4,
+      37,
+      38,
+      39,
+      40
+    ],
+    "status": "issuer disclosed appraisal mirror, design assumptions not actuals",
+    "licensed_ore_tpy": 1200000,
+    "open_pit_design_ore_tpy": 2600000,
+    "underground_design_ore_tpy": 1300000,
+    "open_pit_appraisal_mineable_ore_t": 44193100,
+    "underground_appraisal_mineable_ore_t": 9997500,
+    "open_pit_recovery": 0.8,
+    "underground_recovery": 0.78,
+    "concentrate_li2o_fraction": 0.05,
+    "normal_open_pit_concentrate_tpy_reported": 457040.94,
+    "normal_open_pit_concentrate_tpy_recalc_from_displayed_parameters": 457048.80000000005,
+    "calculation_difference_t": 7.860000000044238,
+    "calculation_difference_status": "unreconciled precision discrepancy, retain issuer figure for sensitivity only",
+    "construction_years": 3.5,
+    "appraisal_years": 30.5,
+    "price_exvat_cny_t": 6614,
+    "freight_exvat_cny_t": 227.52,
+    "exworks_exvat_cny_t": 6386.48,
+    "fixed_asset_investment_including_vat_cny": 2679798500,
+    "land_investment_cny": 802682600,
+    "working_capital_cny": 143423800,
+    "incremental_rights_fee_cny": 969131700,
+    "rights_fee_already_deducted_in_appraisal": true,
+    "approval_condition": "260万原矿吨/年与扩界审批; delay/failure not included in appraisal",
+    "sensitivity": {
+      "scope": "hypothetical gross concentrate revenue at issuer reported design volume; not profit/FCF/value",
+      "cny_revenue_change_per_1000_cny_t": 457040940,
+      "rows": [
+        {
+          "price_cny_t": 4000,
+          "revenue_cny": 1828163760
+        },
+        {
+          "price_cny_t": 5000,
+          "revenue_cny": 2285204700
+        },
+        {
+          "price_cny_t": 6386.48,
+          "revenue_cny": 2918882822.4912
+        },
+        {
+          "price_cny_t": 7000,
+          "revenue_cny": 3199286580
+        },
+        {
+          "price_cny_t": 8000,
+          "revenue_cny": 3656327520
+        }
+      ]
+    },
+    "actual_output_t": null,
+    "actual_capex_cny": null
+  },
+  "GF": {
+    "source_id": "GF2026-127",
+    "url": "https://static.cninfo.com.cn/finalpage/2026-11-26/1225687492.PDF",
+    "publication_date": "2026-11-26",
+    "public_relay_url": "https://www.cfi.net.cn/p20261125000850.html",
+    "public_relay_at": "2026-11-25 17:36:59",
+    "pdf_pages_visually_checked": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "status": "issuer original signed guarantee not actual draw or outflow",
+    "entity": "江苏赣锋动力科技有限公司",
+    "guarantor": "江西赣锋锂电科技股份有限公司",
+    "new_contract_ceiling_cny": 200000000,
+    "entity_actual_guarantee_cny": 300000000,
+    "battery_subgroup_actual_guarantees_cny": 3937000000,
+    "battery_subgroup_approved_ceiling_cny": 7500000000,
+    "group_actual_guarantees_cny": 23530323200,
+    "group_approved_ceiling_cny": 40750000000,
+    "nonconsolidated_guarantees_cny": 4378000000,
+    "group_guarantees_pct_audited_net_assets": 52.12,
+    "nonconsolidated_pct_audited_net_assets": 9.7,
+    "overdue_guarantee_reported": false,
+    "entity_2025_year_end": {
+      "assets_cny": 455502500,
+      "liabilities_cny": 309154100,
+      "equity_cny": 146348400
+    },
+    "entity_2026_9m_unaudited": {
+      "assets_cny": 852682300,
+      "liabilities_cny": 710361800,
+      "equity_cny_reported": 142324500,
+      "equity_cny_recalc": 142320500,
+      "equity_residual_cny": -4000,
+      "revenue_cny": 718103800,
+      "profit_before_tax_cny": -8726400,
+      "liabilities_assets_pct": 83.31
+    },
+    "actual_draw_cny": null,
+    "actual_guarantee_payment_cny": null
+  }
+}
