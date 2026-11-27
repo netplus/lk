@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "period": "2026-11-26",
+  "research_reference_bjt": "2026-11-27T08:02:15+08:00",
+  "sources": [
+    {
+      "id": "smm",
+      "url": "https://news.smm.cn/live/detail/XBZEEPGEYOKKKRS3AG6JU6JV3DLM3SO357RU3PY"
+    },
+    {
+      "id": "mysteel",
+      "url": "https://xny.mysteel.com/a/26112614/606E676CDA869E61.html"
+    },
+    {
+      "id": "spot",
+      "url": "https://xny.mysteel.com/"
+    },
+    {
+      "id": "futures",
+      "url": "https://www.steelhome.com/detailspage.php?nid=4801476&ntype=n"
+    },
+    {
+      "id": "curve",
+      "url": "https://yyyyyyyy.cloud/p/LC/"
+    },
+    {
+      "id": "warrants",
+      "url": "https://www.99qh.com/article/1119772"
+    },
+    {
+      "id": "hydroxide",
+      "url": "https://finance.eastmoney.com/a/202611263940938811.html"
+    },
+    {
+      "id": "listing",
+      "url": "https://www.guoyuanqh.com/notice/details_616_32108.html"
+    },
+    {
+      "id": "broker",
+      "url": "https://finance.sina.com.cn/money/future/fmnews/2026-11-26/doc-inizzmzn8210285.shtml"
+    },
+    {
+      "id": "method",
+      "url": "https://news.smm.cn/news/104096214"
+    }
+  ],
+  "source_notes": {
+    "smm": "2026-11-26 07:40:56 publisher qualitative survey; full numerical table missing; no republication of restricted figures",
+    "mysteel": "2026-11-26 14:51, survey through 2026-11-25, distinct sample; vendor redistribution not cleared, link only",
+    "spot": "2026-11-26 survey, no numerical vendor series republished",
+    "futures": "2026-11-26 17:40:02 dated secondary",
+    "curve": "snapshot 2026-11-26 secondary",
+    "warrants": "2026-11-26 15:39:12 secondary exchange daily report",
+    "hydroxide": "2026-11-26 22:12 press report, contract code not identified in article",
+    "listing": "2026-11-25 exchange notice relay",
+    "broker": "2026-11-26 morning, last-week route scope clarification, not current week numeric update"
+  },
+  "warrants_t": 13073,
+  "warrants_net_change_t": -403,
+  "warrants_cause": null,
+  "smm_current_week_numeric": null,
+  "inventory_sample_reconciliation_complete": false,
+  "raw_gfex_verified": false,
+  "li_hydroxide_first_day_confirmed": true,
+  "li_first_day_contract_code_unverified": true,
+  "vendor_quote_redistribution": "links only",
+  "prior_week_four_vs_five_routes_note": "Four routes exclude slag; do not label four-route sum total. 26 Nov broker repeats prior-week figures; not new week."
+}
